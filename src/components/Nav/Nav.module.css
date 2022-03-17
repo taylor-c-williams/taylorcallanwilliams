@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  font-family: 'VictorMonoMedium', monospace;
+  font-weight: 900;
+  font-size: 1.1rem;
+  letter-spacing: .2rem;
+}
+
+span {
+  padding-left: 2vw;
+}

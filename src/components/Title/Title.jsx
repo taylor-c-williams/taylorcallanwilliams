@@ -11,8 +11,9 @@ export default function Tile() {
 			<section className={styles.subheader}>
 				Software Developer
 			</section>
+			
 			<section className={styles.blurb}>
-			Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+			
 			</section>
 		</div>
 	);

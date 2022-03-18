@@ -4,9 +4,12 @@
   justify-content:flex-end;
   font-family: 'VictorMonoMedium', monospace;
   font-weight: 900;
-  font-size: 1.1rem;
+  font-size: 1.3em;
   letter-spacing: .2rem;
-  padding-bottom: 1vh;
+  padding:1em;
+  /* border-top:.5vh black solid;
+  border-right:.5vh black solid;
+  border-left: .5vh  black solid; */
 }
 
 a {

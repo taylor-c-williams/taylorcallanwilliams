@@ -13,3 +13,6 @@
   src: local('VictorMonoItalic'), url(./fonts/VictorMonoItalic.ttf) format('truetype');
 }
 
+body, html {
+  background-color: #fff;
+}

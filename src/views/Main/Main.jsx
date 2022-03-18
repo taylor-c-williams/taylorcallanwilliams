@@ -1,9 +1,10 @@
 import Title from '../../components/Title/Title'
-import "../../fonts/CodecColdRegular.ttf";
+import styles from './Main.module.css'
+
 
 export default function Main() {
 	return (
-		<main>
+		<main className={styles.main}>
 			<Title />
 		</main>
 	);

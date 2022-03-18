@@ -2,11 +2,13 @@
   font-family: 'CodecColdRegular', sans-serif;
   font-weight:800;
   font-size: 10em;
+  color: #4B324F;
   }
 
   .subheader {
     font-family: 'VictorMonoItalic', monospace;
     font-size: 4em;
+    color: #4B324F;
   }
 
   .blurb {

@@ -1,26 +1,66 @@
-.nav {
-  display: flex;
-  flex-direction: row;
-  justify-content:flex-end;
-  font-family: 'VictorMonoMedium', monospace;
-  font-weight: 900;
-  font-size: 1.3em;
-  letter-spacing: .2rem;
-  padding:1em;
-  /* border-top:.5vh black solid;
-  border-right:.5vh black solid;
-  border-left: .5vh  black solid; */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* 
+  Need to display nav on large screen ELSE hamburger + framer motion on mobile
+  */
+  .nav {
+background-image: url('../../assets/images/menu.png');
+  }
+  a {
+    padding-left: 2vw;
+    text-decoration: none;
+     color: #4B324F;
+  }
+  
+  nav .active{
+    background: #5855F3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+  }
 }
 
-a {
-  padding-left: 2vw;
-  text-decoration: none;
-   color: #4B324F;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
 }
 
-nav .active{
-  background: #5855F3;
-  padding: 10px 20px;
-  border-radius: 5px;
-  color: #fff;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    font-family: 'VictorMonoMedium', monospace;
+    font-weight: 900;
+    font-size: 1.3em;
+    letter-spacing: .2rem;
+    padding:1em;
+    /* border-top:.5vh black solid;
+    border-right:.5vh black solid;
+    border-left: .5vh  black solid; */
+  }
+  
+  a {
+    padding-left: 2vw;
+    text-decoration: none;
+     color: #4B324F;
+  }
+  
+  nav .active{
+    background: #5855F3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
 }

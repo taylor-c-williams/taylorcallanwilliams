@@ -1,35 +1,145 @@
-main {
-  padding: 4vh;
-  border: 0.5vh black solid;
-  /* background-color: #FCD45D; */
-  /* background-color: #D7B9D5; */
-  /* background-color: #BE95C4; */
-  /* background-color: #CFE0C3; */
-  /* background-color: #E3D0D8; */
-  background-color: #e7e6f7;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  main {
+    padding: 4vh;
+    border: 0.5vh black solid;
+    background-color: #e7e6f7;
+  }
+
+  .header {
+    font-family: 'CodecColdExtraBold', sans-serif;
+    font-weight: 800;
+    font-size: 4.25em;
+    /* color: #4B324F; */
+  }
+
+  .subContainer {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .subheader {
+    font-family: 'VictorMonoItalic', monospace;
+    font-size: 1.5em;
+    color: #4b324f;
+    padding-bottom: 1vw;
+  }
+  
+  .blurb {
+    font-family: 'VictorMonoMedium', monospace;
+    font-size: 1.5em;
+    width: 60vw;
+  }
 }
 
-.header {
-  font-family: 'CodecColdRegular', sans-serif;
-  font-weight: 800;
-  font-size: 10em;
-  /* color: #4B324F; */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  main {
+    padding: 4vh;
+    border: 0.5vh black solid;
+    background-color: #e7e6f7;
+  }
+
+  .header {
+    font-family: 'CodecColdExtraBold', sans-serif;
+    font-weight: 800;
+    font-size: 6em;
+    /* color: #4B324F; */
+  }
+
+  .subContainer {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .subheader {
+    font-family: 'VictorMonoItalic', monospace;
+    font-size: 2.5em;
+    color: #4b324f;
+    padding-bottom: 1vw;
+  }
+  
+  .blurb {
+    font-family: 'VictorMonoMedium', monospace;
+    font-size: 1.5em;
+    width: 60vw;
+  }
 }
 
-.subContainer {
-  display: flex;
-  align-items: flex-start;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  main {
+    padding: 4vh;
+    border: 0.5vh black solid;
+    background-color: #e7e6f7;
+  }
+
+  .header {
+    font-family: 'CodecColdExtraBold', sans-serif;
+    font-weight: 800;
+    font-size: 4.5em;
+    /* color: #4B324F; */
+  }
+
+  .subContainer {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .subheader {
+    font-family: 'VictorMonoItalic', monospace;
+    font-size: 1.75em;
+    color: #4b324f;
+    padding-bottom: 1vw;
+  }
+  
+  .blurb {
+    font-family: 'VictorMonoMedium', monospace;
+    font-size: 1.5em;
+    width: 60vw;
+  }
 }
 
-.subheader {
-  font-family: 'VictorMonoItalic', monospace;
-  font-size: 3em;
-  color: #4b324f;
-  padding-bottom: 1vw;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  main {
+    padding: 4vh;
+    border: 0.5vh black solid;
+    /* background-color: #FCD45D; */
+    /* background-color: #D7B9D5; */
+    /* background-color: #BE95C4; */
+    /* background-color: #CFE0C3; */
+    /* background-color: #E3D0D8; */
+    background-color: #e7e6f7;
+  }
+  
+  .header {
+    font-family: 'CodecColdExtraBold', sans-serif;
+    font-weight: 800;
+    font-size: 10em;
+    /* color: #4B324F; */
+  }
+  
+  .subContainer {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .subheader {
+    font-family: 'VictorMonoItalic', monospace;
+    font-size: 3em;
+    color: #4b324f;
+    padding-bottom: 1vw;
+  }
+  
+  .blurb {
+    font-family: 'VictorMonoMedium', monospace;
+    font-size: 1.5em;
+    width: 60vw;
+  }
 }
 
-.blurb {
-  font-family: 'VictorMonoMedium', monospace;
-  font-size: 1.5em;
-  width: 60vw;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }

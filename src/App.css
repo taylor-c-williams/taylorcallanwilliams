@@ -1,18 +1,53 @@
 @font-face {
   font-family: 'CodecColdRegular';
-  src: local('CodecColdRegular'), url(./fonts/CodecColdRegular.ttf) format('truetype');
+  src: local('CodecColdRegular'), url(./assets/fonts/CodecColdRegular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'CodecColdExtraBold';
+  src: local('CodecColdExtraBold'), url(./assets/fonts/Codec-Cold-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'CodecWarmExtraBold';
+  src: local('CodecWarmExtraBold'), url(./assets/fonts/Codec-Warm-ExtraBold.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'VictorMonoMedium';
-  src: local('VictorMonoMedium'), url(./fonts/VictorMonoMedium.ttf) format('truetype');
+  src: local('VictorMonoMedium'), url(./assets/fonts/VictorMonoMedium.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'VictorMonoItalic';
-  src: local('VictorMonoItalic'), url(./fonts/VictorMonoItalic.ttf) format('truetype');
+  src: local('VictorMonoItalic'), url(./assets/fonts/VictorMonoItalic.ttf) format('truetype');
 }
 
 body, html {
   background-color: #fff;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }

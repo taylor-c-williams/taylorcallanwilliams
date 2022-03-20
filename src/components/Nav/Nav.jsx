@@ -9,12 +9,10 @@ export default function Nav() {
     setMenuToggle(!menuToggle);
   };
 
-  console.log(menuToggle);
-
   return (
     <div className={styles.navContainer}>
       <label
-        className={menuToggle ? `${styles.open}` : `${styles.hamburgerZone}`}
+        className={menuToggle ? `${styles.menuOpen}` : `${styles.menuClosed}`}
       >
         <button onClick={buttonChange} />
         {menuToggle ? (

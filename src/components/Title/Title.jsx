@@ -1,4 +1,4 @@
-import styles from '../../views/Main/Main.module.css'
+import styles from '../../views/Main/Main.module.css';
 
 export default function Tile() {
   return (
@@ -12,5 +12,5 @@ export default function Tile() {
 
       <section className={styles.blurb}></section>
     </div>
-  )
+  );
 }

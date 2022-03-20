@@ -1,0 +1,35 @@
+main {
+  padding: 4vh;
+  border: 0.5vh black solid;
+  /* background-color: #FCD45D; */
+  /* background-color: #D7B9D5; */
+  /* background-color: #BE95C4; */
+  /* background-color: #CFE0C3; */
+  /* background-color: #E3D0D8; */
+  background-color: #e7e6f7;
+}
+
+.header {
+  font-family: 'CodecColdRegular', sans-serif;
+  font-weight: 800;
+  font-size: 10em;
+  /* color: #4B324F; */
+}
+
+.subContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.subheader {
+  font-family: 'VictorMonoItalic', monospace;
+  font-size: 3em;
+  color: #4b324f;
+  padding-bottom: 1vw;
+}
+
+.blurb {
+  font-family: 'VictorMonoMedium', monospace;
+  font-size: 1.5em;
+  width: 60vw;
+}

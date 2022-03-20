@@ -1,11 +1,30 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  /* 
-  Need to display nav on large screen ELSE hamburger + framer motion on mobile
-  */
-  .nav {
-background-image: url('../../assets/images/menu.png');
+@media only screen and (max-width: 700px) {
+  .navContainer{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
   }
+
+  .hamburgerZone button{
+    border: none;
+    height: 2.5em;
+    width:2.5em;
+    background-size: 2.5em;
+    background-color: #fff;
+    background-image: url('../../assets/images/menu.png') ;
+    margin-right:1vw;
+    margin-bottom: 1vw;
+  }
+
+  .hamburgerZone button:active{
+    background-image: url('../../assets/images/crossed.png');
+  }
+
+  .navLinks {
+   display: none;
+  }
+
   a {
     padding-left: 2vw;
     text-decoration: none;
@@ -20,19 +39,10 @@ background-image: url('../../assets/images/menu.png');
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .nav {
+@media only screen and (min-width: 700px) {
+  .navLinks {
     display: flex;
     flex-direction: row;
     justify-content:flex-end;
@@ -44,6 +54,10 @@ background-image: url('../../assets/images/menu.png');
     /* border-top:.5vh black solid;
     border-right:.5vh black solid;
     border-left: .5vh  black solid; */
+  }
+
+  .hamburgerZone button{
+    display: none;
   }
   
   a {

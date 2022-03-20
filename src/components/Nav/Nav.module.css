@@ -119,10 +119,8 @@
   }
 
   nav .active {
-    background: #5855f3;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: #fff;
+    font-style: italic;
+    color: #827081;
   }
 }
 

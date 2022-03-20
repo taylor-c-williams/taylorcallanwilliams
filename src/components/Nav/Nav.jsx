@@ -21,16 +21,24 @@ export default function Nav() {
           <div>
             <ul>
               <li>
-                <NavLink to="/">Home</NavLink>
+                <NavLink onClick={buttonChange} to="/">
+                  Home
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/about">About</NavLink>
+                <NavLink onClick={buttonChange} to="/about">
+                  About
+                </NavLink>
               </li>
               <li>
-                <NavLink to="#">Portfolio</NavLink>
+                <NavLink onClick={buttonChange} to="#">
+                  Portfolio
+                </NavLink>
               </li>
               <li>
-                <NavLink to="#">Contact</NavLink>
+                <NavLink onClick={buttonChange} to="#">
+                  Contact
+                </NavLink>
               </li>
             </ul>
           </div>

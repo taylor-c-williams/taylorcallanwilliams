@@ -6,7 +6,8 @@
     justify-content: flex-start;
     font-family: 'Victor Mono';
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 800;
+    letter-spacing: 0.25vw;
   }
 
   .hamburgerZone button {
@@ -15,6 +16,7 @@
     height: 1.5em;
     width: 1.5em;
     background-color: #000;
+    cursor: pointer;
     clip-path: polygon(
       0% 5%,
       100% 5%,
@@ -34,6 +36,7 @@
 
   .hamburgerZone button:active,
   .active button {
+    cursor: pointer;
     margin: 0 0.5vw 1vw 0;
     height: 1.5em;
     width: 1.5em;
@@ -74,9 +77,13 @@
   }
 
   a {
-    padding-left: 2vw;
     text-decoration: none;
-    color: #4b324f;
+    color: #000;
+  }
+
+  a:hover {
+    font-style: italic;
+    color: #827081;
   }
 }
 

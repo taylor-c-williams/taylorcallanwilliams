@@ -3,8 +3,6 @@
     "ecmaVersion": 12,
     "requireConfigFile": false
   },
-  "plugins": ["@babel"],
-  "parser": "@babel/eslint-parser",
   "env": {
     "es6": true,
     "node": true,

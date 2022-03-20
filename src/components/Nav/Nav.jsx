@@ -14,12 +14,15 @@ export default function Nav() {
   return (
     <div className={styles.navContainer}>
       <label
-        className={menuToggle ? `${styles.active}` : `${styles.hamburgerZone}`}
+        className={menuToggle ? `${styles.open}` : `${styles.hamburgerZone}`}
       >
         <button onClick={buttonChange} />
         {menuToggle ? (
           <div>
             <ul>
+              <li>
+                <NavLink to="/">Home</NavLink>
+              </li>
               <li>
                 <NavLink to="/about">About</NavLink>
               </li>
@@ -34,6 +37,7 @@ export default function Nav() {
         ) : null}
       </label>
       <div className={styles.navLinks}>
+        <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
         <NavLink to="#">Portfolio</NavLink>
         <NavLink to="#">Contact</NavLink>

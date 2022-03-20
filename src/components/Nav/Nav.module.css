@@ -5,7 +5,7 @@
     flex-direction: row-reverse;
     justify-content: flex-start;
     font-family: 'Victor Mono';
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 800;
     letter-spacing: 0.25vw;
   }
@@ -13,8 +13,8 @@
   .hamburgerZone button {
     margin: 0 0.5vw 1vw 0;
     border: none;
-    height: 1.5em;
-    width: 1.5em;
+    height: 1.75em;
+    width: 1.75em;
     background-color: #000;
     cursor: pointer;
     clip-path: polygon(
@@ -35,11 +35,11 @@
   }
 
   .hamburgerZone button:active,
-  .active button {
+  .open button {
     cursor: pointer;
     margin: 0 0.5vw 1vw 0;
-    height: 1.5em;
-    width: 1.5em;
+    height: 1.75em;
+    width: 1.75em;
     background-color: #000;
     border: none;
     clip-path: polygon(
@@ -61,7 +61,7 @@
 
   ul {
     position: absolute;
-    left: 70vw;
+    right: 10vw;
     background-color: #fff;
     padding: 3vw;
     border: 0.5vh black solid;
@@ -81,7 +81,8 @@
     color: #000;
   }
 
-  a:hover {
+  a:hover,
+  .active {
     font-style: italic;
     color: #827081;
   }

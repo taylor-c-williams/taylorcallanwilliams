@@ -4,13 +4,13 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
-  }
-
-  .hamburgerZone {
-    padding-right: 1vw;
+    font-family: 'Victor Mono';
+    font-size: 1em;
+    font-weight: 600;
   }
 
   .hamburgerZone button {
+    margin: 0 0.5vw 1vw 0;
     border: none;
     height: 1.5em;
     width: 1.5em;
@@ -29,10 +29,16 @@
       100% 95%,
       0% 95%
     );
-    transition: 0.25s ease-in-out;
+    transition: 0.2s ease-in-out;
   }
 
-  .hamburgerZone button:active {
+  .hamburgerZone button:active,
+  .active button {
+    margin: 0 0.5vw 1vw 0;
+    height: 1.5em;
+    width: 1.5em;
+    background-color: #000;
+    border: none;
     clip-path: polygon(
       20% 0%,
       0% 20%,
@@ -47,6 +53,20 @@
       80% 0%,
       50% 30%
     );
+    transition: 0.2s ease-in-out;
+  }
+
+  ul {
+    position: absolute;
+    left: 70vw;
+    background-color: #fff;
+    padding: 3vw;
+    border: 0.5vh black solid;
+  }
+
+  li {
+    list-style: none;
+    padding: 1vw;
   }
 
   .navLinks {
@@ -57,13 +77,6 @@
     padding-left: 2vw;
     text-decoration: none;
     color: #4b324f;
-  }
-
-  nav .active {
-    background: #5855f3;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: #fff;
   }
 }
 
@@ -84,6 +97,10 @@
   }
 
   .hamburgerZone {
+    display: none;
+  }
+
+  .active {
     display: none;
   }
 

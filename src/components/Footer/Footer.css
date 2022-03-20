@@ -1,4 +1,31 @@
-footer img {
-  padding: 1.5vw 1vw 0 1vw;
-  height: 5vw;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  footer img {
+    padding: 1.5vw 2vw 0 0;
+    height: 11vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  footer img {
+    padding: 1.5vw 2vw 0 0;
+    height: 8vw;
+  }
+}
+
+/*  Large devices (laptop, medium monitor)  */
+@media only screen and (min-width: 950px) {
+  footer img {
+    padding: 1.5vw 2vw 0 0;
+    height: 7vw;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  footer img {
+    padding: 1.5vw 2vw 0 0;
+    height: 5vw;
+  }
 }

@@ -98,9 +98,6 @@
     font-size: 1.3em;
     letter-spacing: 0.2rem;
     padding: 1em;
-    /* border-top:.5vh black solid;
-    border-right:.5vh black solid;
-    border-left: .5vh  black solid; */
   }
 
   .menuClosed {
@@ -111,7 +108,7 @@
     display: none;
   }
 
-  a {
+  nav a {
     padding-left: 2vw;
     text-decoration: none;
     color: #4b324f;

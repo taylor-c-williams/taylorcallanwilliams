@@ -1,37 +1,15 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .mainContainer {
-    /* display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    height: 100vh; */
-  }
-
   main {
     padding: 3vh;
     border: 0.5vh black solid;
     background-color: #e7e6f7;
-    /* width: 90%;
-    height: 50%;
-    z-index: 0; */
-  }
-
-  .circle {
-    /* position: absolute;
-    z-index: 0;
-    top: 5vh;
-    background-color: lightgrey;
-    border-radius: 50%;
-    width: 75vw;
-    height: 75vw; */
-    display: none;
   }
 
   .header {
     font-family: 'CodecColdExtraBold', sans-serif;
     font-weight: 800;
     font-size: 4.5em;
-    /* color: #4B324F; */
   }
 
   .subContainer {
@@ -98,7 +76,7 @@
   .header {
     font-family: 'CodecColdExtraBold', sans-serif;
     font-weight: 800;
-    font-size: 6em;
+    font-size: 8em;
   }
 
   .subContainer {
@@ -108,7 +86,7 @@
 
   .subheader {
     font-family: 'VictorMonoItalic', monospace;
-    font-size: 1.75em;
+    font-size: 2.5em;
     color: #4b324f;
     padding-bottom: 1vw;
   }
@@ -131,7 +109,7 @@
   .header {
     font-family: 'CodecColdExtraBold', sans-serif;
     font-weight: 800;
-    font-size: 10em;
+    font-size: 8em;
   }
 
   .subContainer {

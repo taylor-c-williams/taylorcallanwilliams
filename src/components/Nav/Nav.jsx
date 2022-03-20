@@ -42,12 +42,12 @@ export default function Nav() {
           </div>
         ) : null}
       </label>
-      <div className={styles.navLinks}>
+      <nav className={styles.navLinks}>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
         <NavLink to="#">Portfolio</NavLink>
         <NavLink to="#">Contact</NavLink>
-      </div>
+      </nav>
     </div>
   );
 }

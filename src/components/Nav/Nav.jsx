@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import { useState } from 'react';
 import styles from './Nav.module.css';
 
@@ -19,34 +19,48 @@ export default function Nav() {
           <div>
             <ul>
               <li>
-                <NavLink onClick={buttonChange} to="/">
+                <Link onClick={buttonChange} to="/">
                   Home
-                </NavLink>
+                </Link>
               </li>
               <li>
-                <NavLink onClick={buttonChange} to="/about">
+                <Link onClick={buttonChange} to="/about">
                   About
-                </NavLink>
+                </Link>
               </li>
               <li>
-                <NavLink onClick={buttonChange} to="#">
+                <Link onClick={buttonChange} to="#">
                   Portfolio
-                </NavLink>
+                </Link>
               </li>
               <li>
-                <NavLink onClick={buttonChange} to="#">
+                <Link onClick={buttonChange} to="#">
                   Contact
-                </NavLink>
+                </Link>
               </li>
             </ul>
           </div>
         ) : null}
       </label>
       <nav className={styles.navLinks}>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="#">Portfolio</NavLink>
-        <NavLink to="#">Contact</NavLink>
+        <Link to="/" spy={true} smooth={true} offset={50} duration={500}>
+          Home
+        </Link>
+        <Link to="/about" spy={true} smooth={true} offset={50} duration={500}>
+          About
+        </Link>
+        <Link
+          to="/portfolio"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          Portfolio
+        </Link>
+        <Link to="/contact" spy={true} smooth={true} offset={50} duration={500}>
+          Contact
+        </Link>
       </nav>
     </div>
   );

@@ -4,7 +4,7 @@ import styles from './Footer.module.css';
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className={styles.footer}>
       <a
         href="https://www.linkedin.com/in/taylor-c-williams/"
         target="_blank"

@@ -16,25 +16,54 @@ export default function Nav() {
       >
         <button onClick={buttonChange} />
         {menuToggle ? (
+          // Hamburger Nav //
           <div>
             <ul>
               <li>
-                <Link onClick={buttonChange} to="/">
+                <Link
+                  onClick={buttonChange}
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link onClick={buttonChange} to="/about">
+                <Link
+                  onClick={buttonChange}
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
                   About
                 </Link>
               </li>
               <li>
-                <Link onClick={buttonChange} to="#">
+                <Link
+                  onClick={buttonChange}
+                  to="portfolio"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
                   Portfolio
                 </Link>
               </li>
               <li>
-                <Link onClick={buttonChange} to="#">
+                <Link
+                  onClick={buttonChange}
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
                   Contact
                 </Link>
               </li>
@@ -42,8 +71,10 @@ export default function Nav() {
           </div>
         ) : null}
       </label>
+
+      {/* // Regular Nav // */}
       <nav className={styles.navLinks}>
-        <Link to="/" spy={true} smooth={true} offset={50} duration={500}>
+        <Link to="home" spy={true} smooth={true} offset={50} duration={500}>
           Home
         </Link>
         <Link to="about" spy={true} smooth={true} offset={50} duration={500}>

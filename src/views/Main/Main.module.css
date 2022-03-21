@@ -106,10 +106,17 @@
     background-color: #e7e6f7;
   }
 
+  .circle {
+  }
+
+  section {
+    padding-bottom: 10vw;
+  }
+
   .header {
     font-family: 'CodecColdExtraBold', sans-serif;
     font-weight: 800;
-    font-size: 8em;
+    font-size: 12em;
   }
 
   .subContainer {
@@ -119,7 +126,7 @@
 
   .subHeader {
     font-family: 'VictorMonoItalic', monospace;
-    font-size: 3em;
+    font-size: 4.5em;
     color: #4b324f;
     padding-bottom: 1vw;
   }

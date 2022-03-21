@@ -4,9 +4,9 @@ import portrait from '../../assets/images/linkd.png';
 export default function About() {
   return (
     <div className={styles.main}>
-      <section className={styles.portrait}>
+      <span className={styles.portrait}>
         <img src={portrait} alt="A portrait of Taylor" />
-      </section>
+      </span>
       <header>
         <h1>Hi! I'm Taylor.</h1>
         <span className={styles.subHeader}>I make stuff online.</span>

@@ -11,8 +11,11 @@ export default function Main() {
     <>
       <Nav />
       <div className={styles.mainContainer}>
-        <main className={styles.main} id="home">
-          <Title />
+        <main className={styles.main}>
+          <div className={styles.circle}></div>
+          <section id="home">
+            <Title />
+          </section>
           <section id="about">
             <About />
           </section>

@@ -1,4 +1,4 @@
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 786px and down) */
 @media only screen and (max-width: 768px) {
   .main {
     font-size: 0.75em;

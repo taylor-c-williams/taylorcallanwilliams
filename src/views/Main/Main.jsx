@@ -1,3 +1,4 @@
+import { useParallax } from 'react-scroll-parallax';
 import Footer from '../../components/Footer/Footer';
 import Nav from '../../components/Nav/Nav';
 import styles from './Main.module.css';
@@ -7,13 +8,16 @@ import Contact from '../Contact/Contact';
 import Portfolio from '../Portfolio/Portfolio';
 
 export default function Main() {
+  const titleParallax = useParallax({
+    scale: [0.9, 1.5, 'easeInQuad'],
+  });
+
   return (
     <>
       <Nav />
       <div className={styles.mainContainer}>
         <main className={styles.main}>
-          <div className={styles.circle}></div>
-          <section id="home">
+          <section id="home" ref={titleParallax.ref}>
             <Title />
           </section>
           <section id="about">

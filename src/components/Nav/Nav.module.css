@@ -88,7 +88,7 @@
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops/desktops, 700px and up) */
 @media only screen and (min-width: 700px) {
   .navLinks {
     display: flex;
@@ -98,7 +98,7 @@
     font-weight: 900;
     font-size: 1.3em;
     letter-spacing: 0.2rem;
-    padding: 1em;
+    padding: 0 1em 1em 0;
   }
 
   .menuClosed {

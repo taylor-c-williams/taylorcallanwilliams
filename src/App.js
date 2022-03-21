@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import { ParallaxProvider } from 'react-scroll-parallax';
 import Main from './views/Main/Main';
 import About from './views/About/About';
 import Title from './components/Title/Title';
@@ -9,14 +10,16 @@ import './App.css';
 function App() {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Main />}>
-          <Route path="/" element={<Title />} />
-          <Route path="about" element={<About />} />
-          <Route path="portfolio" element={<Portfolio />} />
-          <Route path="contact" element={<Contact />} />
-        </Route>
-      </Routes>
+      <ParallaxProvider>
+        <Routes>
+          <Route path="/" element={<Main />}>
+            <Route path="/" element={<Title />} />
+            <Route path="about" element={<About />} />
+            <Route path="portfolio" element={<Portfolio />} />
+            <Route path="contact" element={<Contact />} />
+          </Route>
+        </Routes>
+      </ParallaxProvider>
     </>
   );
 }

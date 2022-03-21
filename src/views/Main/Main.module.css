@@ -116,7 +116,7 @@
   .header {
     font-family: 'CodecColdExtraBold', sans-serif;
     font-weight: 800;
-    font-size: 12em;
+    font-size: 10em;
     letter-spacing: 0.07em;
   }
 
@@ -127,7 +127,7 @@
 
   .subHeader {
     font-family: 'VictorMonoItalic', monospace;
-    font-size: 4.25em;
+    font-size: 2.25em;
     color: #4b324f;
     padding-bottom: 1vw;
   }

@@ -1,10 +1,11 @@
+import Taylor from './Taylor';
 import styles from '../../views/Main/Main.module.css';
 
 export default function Tile() {
   return (
     <div>
       <span className={styles.header}>
-        Taylor <br />
+        <Taylor /> <br />
         Callan <br />
         Williams
       </span>

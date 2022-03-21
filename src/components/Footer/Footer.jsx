@@ -1,6 +1,6 @@
 import linkedin from '../../assets/images/linkedin.png';
 import github from '../../assets/images/github.png';
-import styles from './Footer.css';
+import styles from './Footer.module.css';
 
 export default function Footer() {
   return (

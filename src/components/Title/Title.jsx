@@ -8,7 +8,7 @@ export default function Tile() {
         Callan <br />
         Williams
       </section>
-      <section className={styles.subheader}>Software Developer</section>
+      <section className={styles.subHeader}>Software Developer</section>
 
       <section className={styles.blurb}></section>
     </div>

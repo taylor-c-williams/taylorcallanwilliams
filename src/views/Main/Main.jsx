@@ -7,7 +7,6 @@ export default function Main() {
   return (
     <>
       <Nav />
-      <div className={styles.circle}> </div>
       <div className={styles.mainContainer}>
         <main className={styles.main}>
           <Outlet />

@@ -46,11 +46,11 @@ export default function Nav() {
         <Link to="/" spy={true} smooth={true} offset={50} duration={500}>
           Home
         </Link>
-        <Link to="/about" spy={true} smooth={true} offset={50} duration={500}>
+        <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
           About
         </Link>
         <Link
-          to="/portfolio"
+          to="portfolio"
           spy={true}
           smooth={true}
           offset={50}
@@ -58,7 +58,7 @@ export default function Nav() {
         >
           Portfolio
         </Link>
-        <Link to="/contact" spy={true} smooth={true} offset={50} duration={500}>
+        <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
           Contact
         </Link>
       </nav>

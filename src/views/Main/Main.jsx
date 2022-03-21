@@ -15,9 +15,15 @@ export default function Main() {
         <main className={styles.main}>
           {/* <Outlet /> */}
           <Title />
-          <About />
-          <Portfolio />
-          <Contact />
+          <section id="about">
+            <About />
+          </section>
+          <section id="portfolio">
+            <Portfolio />
+          </section>
+          <section id="contact">
+            <Contact />
+          </section>
         </main>
         <Footer />
       </div>

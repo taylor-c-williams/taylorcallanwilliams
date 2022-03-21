@@ -1,40 +1,75 @@
-.main {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .main {
+    font-size: 0.75em;
+    font-weight: 600;
+  }
+
+  .portrait img {
+    clip-path: circle(50% at 50% 50%);
+    height: 60vw;
+  }
+
+  header {
+    margin: 2vw 0 0 2vw;
+    font-family: 'VictorMonoMedium';
+    font-size: 1em;
+  }
+
+  header h1 {
+    display: block;
+    margin: 0;
+    font-family: 'CodecColdExtraBold';
+    font-size: 4.5em;
+  }
+
+  .subHeader {
+    display: block;
+    font-size: 1.8em;
+    font-family: 'VictorMonoItalic';
+    padding: 0.5em 0 0.5em 0;
+    letter-spacing: 0.07em;
+  }
+
+  .blurb {
+    font-size: 1.1em;
+  }
 }
 
-header {
-  margin: 2vw 0 0 2vw;
-  font-family: 'VictorMonoMedium';
-  font-size: 1em;
-  width: 50vw;
-}
+/* Medium + larger devices (landscape tablets, laptops 768px and up) */
+@media only screen and (min-width: 768px) {
+  .main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 
-.subHeader {
-  display: block;
-  font-size: 1.5em;
-  font-family: 'VictorMonoItalic';
-}
+  header {
+    margin: 2vw 0 0 2vw;
+    font-family: 'VictorMonoMedium';
+    font-size: 1em;
+    width: 50vw;
+  }
 
-header h1 {
-  margin: 0;
-  font-family: 'CodecColdExtraBold';
-  font-size: 4.5em;
-}
+  .subHeader {
+    display: block;
+    font-size: 1.5em;
+    font-family: 'VictorMonoItalic';
+  }
 
-header span {
-  font-size: 1.1em;
-  padding: 0.5em;
-  font-weight: 600;
-}
+  header h1 {
+    margin: 0;
+    font-family: 'CodecColdExtraBold';
+    font-size: 4.5em;
+  }
 
-.portrait {
-  font-family: 'VictorMonoMedium', monospace;
-  font-size: 1.5em;
-}
-
-.portrait img {
-  clip-path: circle(50% at 50% 50%);
-  height: 35vw;
+  header span {
+    font-size: 1.1em;
+    padding: 0.5em;
+    font-weight: 600;
+  }
+  .portrait img {
+    clip-path: circle(50% at 50% 50%);
+    height: 35vw;
+  }
 }

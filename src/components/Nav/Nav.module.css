@@ -64,6 +64,7 @@
     background-color: #fff;
     padding: 3vw;
     border: 0.5vh black solid;
+    z-index: 1;
   }
 
   li {

@@ -113,6 +113,7 @@
     padding-left: 2vw;
     text-decoration: none;
     color: #4b324f;
+    cursor: pointer;
   }
 
   nav .active {

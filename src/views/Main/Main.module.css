@@ -73,22 +73,25 @@
     background-color: #e7e6f7;
   }
 
+  section {
+    padding: 0 0 20vw 0;
+  }
+
+  .titleContainer {
+    display: block;
+    padding: 2vw 0 0 2vw;
+  }
+
   .header {
     font-family: 'CodecColdExtraBold', sans-serif;
     font-weight: 800;
     font-size: 8em;
   }
 
-  .subContainer {
-    display: flex;
-    align-items: flex-start;
-  }
-
   .subHeader {
     font-family: 'VictorMonoItalic', monospace;
     font-size: 2.5em;
     color: #4b324f;
-    padding-bottom: 1vw;
   }
 
   .blurb {
@@ -104,9 +107,6 @@
     padding: 4vh;
     border: 0.5vh black solid;
     background-color: #e7e6f7;
-  }
-
-  .circle {
   }
 
   section {

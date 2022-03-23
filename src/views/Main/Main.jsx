@@ -8,10 +8,6 @@ import Contact from '../Contact/Contact';
 import Portfolio from '../Portfolio/Portfolio';
 
 export default function Main() {
-  // const titleParallax = useParallax({
-  //   scale: [0.9, 1.5, 'easeInQuad'],
-  // });
-
   return (
     <>
       <Nav />

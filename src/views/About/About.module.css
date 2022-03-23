@@ -1,6 +1,6 @@
 /* Extra small devices (phones, 786px and down) */
 @media only screen and (max-width: 768px) {
-  .main {
+  .aboutMain {
     font-size: 0.75em;
     font-weight: 600;
   }
@@ -38,7 +38,7 @@
 
 /* Medium + larger devices (landscape tablets, laptops 768px and up) */
 @media only screen and (min-width: 768px) {
-  .main {
+  .aboutMain {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -68,8 +68,13 @@
     padding: 0.5em;
     font-weight: 600;
   }
+
+  .portraitContainer {
+    height: 36vw;
+  }
+
   .portrait img {
-    clip-path: circle(50% at 50% 50%);
+    filter: drop-shadow(-5px 5px #c9c9c9);
     height: 35vw;
   }
 }

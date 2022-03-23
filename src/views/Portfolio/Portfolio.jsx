@@ -1,9 +1,13 @@
+import { Parallax } from 'react-scroll-parallax';
 import styles from './Portfolio.module.css';
+import animations from '../Main/animations.module.css';
 export default function Portfolio() {
   return (
     <div className={styles.main}>
       <header>
-        <h1>Portfolio</h1>
+        <Parallax speed={10}>
+          <h1 className={animations.textShadowPopSl}>Portfolio</h1>
+        </Parallax>
         <span className={styles.subHeader}>I make stuff online.</span>
         <span className={styles.blurb}>
           Cat ipsum dolor sit amet, human is in bath tub, emergency! drowning!

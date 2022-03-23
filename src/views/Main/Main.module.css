@@ -89,12 +89,12 @@
   .header {
     font-family: 'CodecColdExtraBold', sans-serif;
     font-weight: 800;
-    font-size: 8em;
+    font-size: 14em;
   }
 
   .subHeader {
     font-family: 'VictorMonoItalic', monospace;
-    font-size: 2.5em;
+    font-size: 5em;
     color: #4b324f;
   }
 
@@ -106,7 +106,7 @@
 }
 
 /* Large devices (laptops/desktops, 1000px and up) */
-@media only screen and (min-width: 1000px) {
+/* @media only screen and (min-width: 1000px) {
   main {
     padding: 4vh;
     border: 0.5vh black solid;
@@ -114,24 +114,19 @@
   }
 
   section {
-    padding: 0 0 20vw 0;
+    padding: 0 0 25vw 0;
   }
 
   .header {
     font-family: 'CodecColdExtraBold', sans-serif;
     font-weight: 800;
-    font-size: 10em;
+    font-size: 11em;
     letter-spacing: 0.07em;
-  }
-
-  .subContainer {
-    display: flex;
-    align-items: flex-start;
   }
 
   .subHeader {
     font-family: 'VictorMonoItalic', monospace;
-    font-size: 2.25em;
+    font-size: 4.5em;
     color: #4b324f;
     padding-bottom: 1vw;
   }
@@ -141,7 +136,7 @@
     font-size: 1.5em;
     width: 60vw;
   }
-}
+} */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {

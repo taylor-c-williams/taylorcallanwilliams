@@ -89,12 +89,12 @@
   .header {
     font-family: 'CodecColdExtraBold', sans-serif;
     font-weight: 800;
-    font-size: 8em;
+    font-size: 8.5em;
   }
 
   .subHeader {
     font-family: 'VictorMonoItalic', monospace;
-    font-size: 5em;
+    font-size: 3em;
     color: #4b324f;
   }
 

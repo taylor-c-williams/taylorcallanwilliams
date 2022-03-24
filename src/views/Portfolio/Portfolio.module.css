@@ -1,6 +1,6 @@
 /* Extra small devices (phones, 768x and down) */
 @media only screen and (max-width: 768px) {
-  .main {
+  .portfolioMain {
     font-size: 0.75em;
     font-weight: 600;
   }
@@ -10,13 +10,13 @@
     height: 50vw;
   }
 
-  header {
+  .portfolioContainer {
     margin: 2vw 0 0 2vw;
     font-family: 'VictorMonoMedium';
     font-size: 1em;
   }
 
-  header h1 {
+  .portfolioContainer h1 {
     display: block;
     margin: 0;
     font-family: 'CodecColdExtraBold';
@@ -38,13 +38,14 @@
 
 /* Medium + larger devices (landscape tablets, laptops 768px and up) */
 @media only screen and (min-width: 768px) {
-  .main {
+  .portfolioMain {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-direction: column;
   }
 
-  header {
+  .portfolioContainer {
     margin: 2vw 0 0 2vw;
     font-family: 'VictorMonoMedium';
     font-size: 1em;
@@ -57,19 +58,33 @@
     font-family: 'VictorMonoItalic';
   }
 
-  header h1 {
+  .portfolioContainer h1 {
     margin: 0;
     font-family: 'CodecColdExtraBold';
     font-size: 6em;
   }
 
-  header span {
-    font-size: 1.1em;
-    padding: 0.5em;
-    font-weight: 600;
-  }
   .portrait img {
     clip-path: circle(50% at 50% 50%);
-    height: 35vw;
+    height: 15vw;
+  }
+
+  .projectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c9c9c9;
+    padding: 3vw;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 25vw;
+    filter: drop-shadow(-7px 7px black);
+  }
+
+  .projectContainer img {
+    height: 25vw;
+    width: 25vw;
+    clip-path: circle(50% at 50% 50%);
   }
 }

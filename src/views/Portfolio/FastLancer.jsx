@@ -1,5 +1,6 @@
 import { Parallax } from 'react-scroll-parallax';
 import styles from './Portfolio.module.css';
+import animations from '../Main/animations.module.css';
 import fast from '../../assets/images/FastLancerLogo.svg';
 
 export default function BopSimon() {
@@ -13,8 +14,8 @@ export default function BopSimon() {
       <Parallax speed={-10}>
         <div className={styles.projectDescription}>
           <div className={styles.blurb}>
-            <span className={styles.subHeader}>Fast Lancer</span>
-            REACT · JSX · CSS3 · MSW <br />A dynamically rendered single-page
+            <h2 className={animations.textShadowPopSl}>Fast Lancer</h2>
+            <h3>REACT · JSX · CSS3 · MSW </h3>A dynamically rendered single-page
             app which utilizes a RESTful API and CRUD functionality to build a
             freelancer's organizational solution, tracking pertinent data
             relating to open contracts and current clients. Completed with an
@@ -31,7 +32,8 @@ export default function BopSimon() {
               </li>
             </ul>
             <div className={styles.projectLinks}>
-              <a href="#">LIVE</a> | <a href="#">CODE</a>
+              <a href="#">LIVE</a>
+              <a href="#">CODE</a>
             </div>
           </div>
         </div>

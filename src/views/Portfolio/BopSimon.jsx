@@ -1,5 +1,6 @@
 import { Parallax } from 'react-scroll-parallax';
 import styles from './Portfolio.module.css';
+import animations from '../Main/animations.module.css';
 import simon from '../../assets/images/simon.png';
 
 export default function BopSimon() {
@@ -8,9 +9,11 @@ export default function BopSimon() {
       <Parallax speed={-10}>
         <div className={styles.projectDescription}>
           <div className={styles.blurb}>
-            <span className={styles.subHeader}>Bop Simon!</span>
-            REACT · TONE. JS · MATERIAL UI · BCRYPT · EXPRESS · POSTGRESQL{' '}
-            <br />A full-stack interactive musical memory game built in React,
+            <h2 className={animations.textShadowPopSl}>Bop Simon!</h2>
+            <h3>
+              REACT · TONE. JS · MATERIAL UI · BCRYPT · EXPRESS · POSTGRESQL{' '}
+            </h3>
+            A full-stack interactive musical memory game built in React,
             Tone.Js, CSS, PostgreSQL and Express. Using custom-built synthesized
             audio and game logic, Bop Simon guides the player through randomly
             generated melodies of increasing difficulty. User auth data is
@@ -27,7 +30,8 @@ export default function BopSimon() {
               </li>
             </ul>
             <div className={styles.projectLinks}>
-              <a href="#">LIVE</a> | <a href="#">CODE</a>
+              <a href="#">LIVE</a>
+              <a href="#">CODE</a>
             </div>
           </div>
         </div>

@@ -43,9 +43,6 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-  }
-
-  .portfolioContainer {
     margin: 2vw 0 0 2vw;
     font-family: 'VictorMonoMedium';
     font-size: 1em;
@@ -53,38 +50,52 @@
   }
 
   .subHeader {
-    display: block;
-    font-size: 1.5em;
-    font-family: 'VictorMonoItalic';
+    font-size: 3em;
+    font-family: 'CodecColdExtraBold';
+    font-weight: 600;
   }
 
-  .portfolioContainer h1 {
+  h1 {
     margin: 0;
     font-family: 'CodecColdExtraBold';
     font-size: 6em;
   }
 
-  .portrait img {
-    clip-path: circle(50% at 50% 50%);
-    height: 15vw;
+  .projectContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
   }
 
-  .projectContainer {
+  .projectIcon {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #c9c9c9;
-    padding: 3vw;
-    width: 40vw;
-    height: 40vw;
+    margin: 3vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 25vw;
-    filter: drop-shadow(-7px 7px black);
+    border: 0.5vw solid black;
+    filter: drop-shadow(-7px 7px #c9c9c9);
   }
 
-  .projectContainer img {
-    height: 25vw;
-    width: 25vw;
-    clip-path: circle(50% at 50% 50%);
+  .projectIcon img {
+    height: 20vw;
+    width: 20vw;
+  }
+
+  .blurb {
+    font-size: 1.2em;
+    font-weight: 600;
+    background-color: #c9c9c9;
+    padding: 1vw;
+    margin-right: 1vw;
+    width: 50vw;
+    border: 0.5vw solid black;
+    filter: drop-shadow(-7px 7px #c9c9c9);
   }
 }

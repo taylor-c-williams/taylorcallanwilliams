@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import Footer from '../../components/Footer/Footer';
 import Nav from '../../components/Nav/Nav';
 import animations from './animations.module.css';
@@ -8,6 +9,23 @@ import Contact from '../Contact/Contact';
 import Portfolio from '../Portfolio/Portfolio';
 
 export default function Main() {
+  const [showTopButton, setShowTopButton] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      window.pageYOffset > 300
+        ? setShowTopButton(true)
+        : setShowTopButton(false);
+    });
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // for smoothly scrolling
+    });
+  };
+  console.log(showTopButton);
   return (
     <>
       <Nav />
@@ -25,6 +43,11 @@ export default function Main() {
           <section id="contact">
             <Contact />
           </section>
+          {showTopButton && (
+            <button onClick={scrollToTop} className={styles.backToTop}>
+              &#8679;
+            </button>
+          )}
         </main>
         <Footer />
       </div>

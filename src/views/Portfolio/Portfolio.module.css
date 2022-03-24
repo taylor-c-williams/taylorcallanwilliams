@@ -39,20 +39,16 @@
 /* Medium + larger devices (landscape tablets, laptops 768px and up) */
 @media only screen and (min-width: 768px) {
   .portfolioMain {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    margin: 2vw 0 0 2vw;
     font-family: 'VictorMonoMedium';
     font-size: 1em;
-    width: 50vw;
   }
 
   .subHeader {
     font-size: 3em;
     font-family: 'CodecColdExtraBold';
     font-weight: 600;
+    display: block;
+    padding-bottom: 1vw;
   }
 
   h1 {
@@ -63,10 +59,11 @@
 
   .projectContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 80vw;
+    grid-template-columns: auto auto;
     justify-content: center;
     align-items: center;
+    justify-items: center;
+    padding: 2vw;
   }
 
   .projectIcon {
@@ -75,11 +72,10 @@
     align-items: center;
     flex-direction: column;
     background-color: #c9c9c9;
-    margin: 3vw;
     width: 30vw;
     height: 30vw;
     border-radius: 25vw;
-    border: 0.5vw solid black;
+    border: 0.25vw solid black;
     filter: drop-shadow(-7px 7px #c9c9c9);
   }
 
@@ -90,12 +86,11 @@
 
   .blurb {
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #c9c9c9;
-    padding: 1vw;
-    margin-right: 1vw;
-    width: 50vw;
-    border: 0.5vw solid black;
+    padding: 2vw;
+    margin: 0 2vw 0 2vw;
+    border: 0.25vw solid black;
     filter: drop-shadow(-7px 7px #c9c9c9);
   }
 }

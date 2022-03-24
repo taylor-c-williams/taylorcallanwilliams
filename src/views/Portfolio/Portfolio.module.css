@@ -44,8 +44,16 @@
   }
 
   .subHeader {
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'CodecColdExtraBold';
+    font-weight: 600;
+    display: block;
+    padding-bottom: 1vw;
+  }
+
+  .portfolioSubHeader {
+    font-size: 2em;
+    font-family: 'VictorMonoItalic';
     font-weight: 600;
     display: block;
     padding-bottom: 1vw;
@@ -54,7 +62,7 @@
   h1 {
     margin: 0;
     font-family: 'CodecColdExtraBold';
-    font-size: 6em;
+    font-size: 8em;
   }
 
   .projectContainer {
@@ -64,6 +72,7 @@
     align-items: center;
     justify-items: center;
     padding: 2vw;
+    margin: 15vw 0 15vw 0;
   }
 
   .projectIcon {
@@ -85,7 +94,7 @@
   }
 
   .blurb {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 500;
     background-color: #c9c9c9;
     padding: 2vw;

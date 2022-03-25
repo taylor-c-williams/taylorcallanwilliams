@@ -1,17 +1,17 @@
 import { Parallax } from 'react-scroll-parallax';
 import styles from './Portfolio.module.css';
 import animations from '../Main/animations.module.css';
-import fast from '../../assets/images/FastLancerLogo.svg';
+import fast from '../../assets/images/lancer.png';
 
 export default function BopSimon() {
   return (
     <div className={styles.projectContainer}>
-      <Parallax speed={15}>
+      <Parallax speed={25}>
         <div className={styles.projectIcon}>
           <img src={fast} alt="Bop Simon project details" />
         </div>
       </Parallax>
-      <Parallax speed={-10}>
+      <Parallax speed={1}>
         <div className={styles.projectDescription}>
           <div className={styles.blurb}>
             <h2 className={animations.textShadowPopSl}>Fast Lancer</h2>

@@ -1,12 +1,17 @@
 import { Parallax } from 'react-scroll-parallax';
 import styles from './Portfolio.module.css';
 import animations from '../Main/animations.module.css';
-import simon from '../../assets/images/simon.png';
+import simon from '../../assets/images/bop.png';
 
 export default function BopSimon() {
   return (
     <div className={styles.projectContainer}>
-      <Parallax speed={-10}>
+      <Parallax speed={25}>
+        <div className={styles.projectIcon}>
+          <img src={simon} alt="Bop Simon project details" />
+        </div>
+      </Parallax>
+      <Parallax speed={1}>
         <div className={styles.projectDescription}>
           <div className={styles.blurb}>
             <h2 className={animations.textShadowPopSl}>Bop Simon!</h2>
@@ -34,11 +39,6 @@ export default function BopSimon() {
               <a href="#">CODE</a>
             </div>
           </div>
-        </div>
-      </Parallax>
-      <Parallax speed={15}>
-        <div className={styles.projectIcon}>
-          <img src={simon} alt="Bop Simon project details" />
         </div>
       </Parallax>
     </div>

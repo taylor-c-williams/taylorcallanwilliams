@@ -1,17 +1,17 @@
 import { Parallax } from 'react-scroll-parallax';
 import styles from './Portfolio.module.css';
 import animations from '../Main/animations.module.css';
-import dogMatch from '../../assets/images/xoloitzcuintle.png';
+import dogMatch from '../../assets/images/doggie.png';
 
 export default function DoggieMatcher() {
   return (
     <div className={styles.projectContainer}>
-      <Parallax speed={15}>
+      <Parallax speed={25}>
         <div className={styles.projectIcon}>
           <img src={dogMatch} alt="Doggie Matcher project" />
         </div>
       </Parallax>
-      <Parallax speed={-10}>
+      <Parallax speed={1}>
         <div className={styles.projectDescription}>
           <div className={styles.blurb}>
             <h2 className={animations.textShadowPopSl}>Doggie Matcher</h2>

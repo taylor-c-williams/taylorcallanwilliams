@@ -79,31 +79,24 @@
   }
 
   .projectContainer {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
     padding: 2vw;
     margin: 15vw 0 15vw 0;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
   }
 
   .projectIcon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #e3d0d8;
-    width: 20vw;
-    height: 20vw;
-    border-radius: 25vw;
-    border: 0.25vw solid black;
     filter: drop-shadow(-7px 7px #c9c9c9);
+    position: absolute;
+    z-index: 0;
   }
 
   .projectIcon img {
-    height: 15vw;
-    width: 15vw;
+    width: 35vw;
+    height: 35vw;
+    border-radius: 17.5vw;
+    filter: blur(1px);
+    border: 0.5vw solid black;
   }
 
   .blurb {

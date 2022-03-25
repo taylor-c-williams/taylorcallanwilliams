@@ -28,7 +28,6 @@
     url(./assets/fonts/VictorMonoItalic.ttf) format('truetype');
 }
 
-body,
 html {
   background-color: #fff;
   margin: 1em;

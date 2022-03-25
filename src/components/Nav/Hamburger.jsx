@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
+import styles from './Nav.module.css';
 
 export default function Hamburger(buttonChange) {
   return (
-    <div>
+    <div className={styles.hamburgerUl}>
       <ul>
         <li>
           <Link

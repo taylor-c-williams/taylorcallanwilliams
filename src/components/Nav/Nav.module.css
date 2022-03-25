@@ -58,7 +58,7 @@
     transition: 0.2s ease-in-out;
   }
 
-  ul {
+  .hamburgerUl ul {
     position: absolute;
     right: 10vw;
     background-color: #fff;
@@ -67,7 +67,7 @@
     z-index: 1;
   }
 
-  li {
+  .hamburgerUl li {
     list-style: none;
     padding: 1vw;
   }

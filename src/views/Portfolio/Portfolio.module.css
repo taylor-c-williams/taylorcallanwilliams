@@ -1,38 +1,107 @@
-/* Extra small devices (phones, 768x and down) */
+/* small devices */
 @media only screen and (max-width: 768px) {
   .portfolioMain {
-    font-size: 0.75em;
-    font-weight: 600;
-  }
-
-  .portrait img {
-    clip-path: circle(50% at 50% 50%);
-    height: 50vw;
-  }
-
-  .portfolioContainer {
-    margin: 2vw 0 0 2vw;
     font-family: 'VictorMonoMedium';
-    font-size: 1em;
+    font-size: 0.5em;
   }
 
-  .portfolioContainer h1 {
+  .portfolioSubHeader {
+    font-size: 1.1em;
+    font-family: 'VictorMonoItalic';
+    font-weight: 600;
     display: block;
+    padding-bottom: 1vw;
+  }
+
+  h1 {
     margin: 0;
     font-family: 'CodecColdExtraBold';
-    font-size: 4.5em;
+    font-size: 4em;
   }
 
-  .subHeader {
-    display: block;
-    font-size: 1.8em;
-    font-family: 'VictorMonoItalic';
-    padding: 0.5em 0 0.5em 0;
-    letter-spacing: 0.07em;
+  h2 {
+    margin: 0;
+    font-family: 'CodecColdExtraBold';
+    font-size: 5em;
+  }
+
+  h3 {
+    margin: 0.5vw 0 0.75vw 0;
+    font-family: 'VictorMonoMedium';
+    font-size: 1.25em;
+    letter-spacing: 0.2em;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  .projectContainer {
+    padding: 2vw;
+    margin: 15vw 0 15vw 0;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+  }
+
+  .projectIcon {
+    width: 35vw;
+    height: 35vw;
+    border-radius: 17.5vw;
+    background-color: #fff;
+    filter: drop-shadow(-7px 7px #c9c9c9);
+    position: absolute;
+    z-index: 0;
+  }
+
+  .projectIcon img {
+    width: 35vw;
+    height: 35vw;
+    border-radius: 17.5vw;
+    filter: opacity(0.5);
+    border: 0.5vw solid black;
   }
 
   .blurb {
-    font-size: 1.1em;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #e3d0d8;
+    padding: 5vw;
+    margin: 0 2vw 0 2vw;
+    border: 0.25vw solid;
+    filter: drop-shadow(-7px 7px #c9c9c9);
+  }
+
+  .projectLinks a {
+    color: #4b324f;
+    border: 1px black solid;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.25em;
+    padding: 0.25em;
+    margin: 0.75vw;
+    background-color: #c9c9c9;
+    filter: drop-shadow(-7px 7px #827081);
+  }
+
+  .projectLinks a:hover {
+    color: #4b324f;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.25em;
+    padding: 0.25em;
+    margin: 0.75vw;
+    background-color: #fff;
+    filter: drop-shadow(-7px 7px #827081);
+  }
+
+  .projectLinks a:active {
+    color: #e7e6f7;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.25em;
+    padding: 0.25em;
+    background-color: #827081;
+    filter: drop-shadow(-7px 7px #000);
   }
 }
 
@@ -40,15 +109,7 @@
 @media only screen and (min-width: 768px) {
   .portfolioMain {
     font-family: 'VictorMonoMedium';
-    font-size: 1em;
-  }
-
-  .subHeader {
-    font-size: 2.5em;
-    font-family: 'CodecColdExtraBold';
-    font-weight: 600;
-    display: block;
-    padding-bottom: 1vw;
+    font-size: 0.75em;
   }
 
   .portfolioSubHeader {
@@ -86,6 +147,10 @@
   }
 
   .projectIcon {
+    width: 35vw;
+    height: 35vw;
+    border-radius: 17.5vw;
+    background-color: #fff;
     filter: drop-shadow(-7px 7px #c9c9c9);
     position: absolute;
     z-index: 0;
@@ -95,7 +160,7 @@
     width: 35vw;
     height: 35vw;
     border-radius: 17.5vw;
-    filter: blur(1px);
+    filter: opacity(0.5);
     border: 0.5vw solid black;
   }
 
@@ -115,7 +180,7 @@
     text-decoration: none;
     font-weight: 400;
     font-size: 1.25em;
-    padding: 0.25em;
+    padding: 1em;
     margin: 0.75vw;
     background-color: #c9c9c9;
     filter: drop-shadow(-7px 7px #827081);
@@ -126,7 +191,6 @@
     text-decoration: none;
     font-weight: 400;
     font-size: 1.25em;
-    padding: 0.25em;
     margin: 0.75vw;
     background-color: #fff;
     filter: drop-shadow(-7px 7px #827081);
@@ -137,7 +201,6 @@
     text-decoration: none;
     font-weight: 400;
     font-size: 1.25em;
-    padding: 0.25em;
     background-color: #827081;
     filter: drop-shadow(-7px 7px #000);
   }

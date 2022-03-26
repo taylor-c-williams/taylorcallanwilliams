@@ -1,15 +1,34 @@
 @font-face {
   font-family: 'CodecColdRegular';
-  src: local('CodecColdRegular'), url(./fonts/CodecColdRegular.ttf) format('truetype');
+  src: local('CodecColdRegular'),
+    url(./assets/fonts/CodecColdRegular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'CodecColdExtraBold';
+  src: local('CodecColdExtraBold'),
+    url(./assets/fonts/Codec-Cold-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'CodecWarmExtraBold';
+  src: local('CodecWarmExtraBold'),
+    url(./assets/fonts/Codec-Warm-ExtraBold.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'VictorMonoMedium';
-  src: local('VictorMonoMedium'), url(./fonts/VictorMonoMedium.ttf) format('truetype');
+  src: local('VictorMonoMedium'),
+    url(./assets/fonts/VictorMonoMedium.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'VictorMonoItalic';
-  src: local('VictorMonoItalic'), url(./fonts/VictorMonoItalic.ttf) format('truetype');
+  src: local('VictorMonoItalic'),
+    url(./assets/fonts/VictorMonoItalic.ttf) format('truetype');
 }
 
+html {
+  background-color: #aea3b0;
+  margin: 0em 1em 1em 1em;
+}

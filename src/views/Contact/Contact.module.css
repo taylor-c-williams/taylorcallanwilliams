@@ -1,0 +1,117 @@
+/* Extra small devices (phones, 768x and down) */
+@media only screen and (max-width: 768px) {
+  .contactMain {
+    font-size: 0.75em;
+    font-weight: 600;
+  }
+
+  .portrait img {
+    clip-path: circle(50% at 50% 50%);
+    height: 60vw;
+  }
+
+  header {
+    margin: 2vw 0 0 2vw;
+    font-family: 'VictorMonoMedium';
+    font-size: 1em;
+  }
+
+  header h1 {
+    display: block;
+    margin: 0;
+    font-family: 'CodecColdExtraBold';
+    font-size: 4.5em;
+  }
+
+  .contactSubHeader {
+    display: block;
+    font-size: 1.8em;
+    font-family: 'VictorMonoItalic';
+    padding: 0.5em 0 0.5em 0;
+    letter-spacing: 0.07em;
+  }
+
+  .contactBlurb {
+    font-size: 1.1em;
+  }
+}
+
+/* Medium + larger devices (landscape tablets, laptops 768px and up) */
+@media only screen and (min-width: 768px) {
+  .contactMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'VictorMonoMedium';
+  }
+
+  header {
+    margin: 2vw 0 0 2vw;
+    font-family: 'VictorMonoMedium';
+    font-size: 1em;
+    width: 50vw;
+  }
+
+  .contactSubHeader {
+    display: block;
+    font-size: 1.5em;
+    font-family: 'VictorMonoItalic';
+  }
+
+  header h1 {
+    margin: 0;
+    font-family: 'CodecColdExtraBold';
+    font-size: 8em;
+  }
+
+  header span {
+    font-size: 1.1em;
+    padding: 0.5em;
+    font-weight: 600;
+  }
+
+  .contactInfo {
+    display: flex;
+    align-items: center;
+  }
+
+  .contactInfo img {
+    height: 7em;
+    margin: 1vw;
+  }
+
+  .contactInfo img:hover {
+    filter: drop-shadow(-7px 7px #c9c9c9);
+  }
+
+  .contactInfo img:nth-child(4) {
+    height: 6.5em;
+    margin: 2.5vw;
+  }
+
+  .tooltip {
+    display: inline-block;
+    position: relative;
+    font-family: 'VictorMonoMedium';
+  }
+
+  .tooltip .hover {
+    min-width: 12.5em;
+    top: -1vw;
+    left: -95%;
+    padding: 1vw 1vw;
+    color: #000;
+    font-weight: 800;
+    font-size: 0.85em;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    box-sizing: border-box;
+    border: 0.25vw solid #000;
+    filter: drop-shadow(-5px 5px #c9c9c9);
+    display: none;
+  }
+
+  .tooltip:hover .hover {
+    display: block;
+  }
+}

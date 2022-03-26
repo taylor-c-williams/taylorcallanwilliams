@@ -1,22 +1,144 @@
-.nav {
-  display: flex;
-  flex-direction: row;
-  justify-content:flex-end;
-  font-family: 'VictorMonoMedium', monospace;
-  font-weight: 900;
-  font-size: 1.1rem;
-  letter-spacing: .2rem;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 700px) {
+  .navContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    font-family: 'Victor Mono';
+    font-size: 2em;
+    font-weight: 800;
+    letter-spacing: 0.25vw;
+  }
+
+  .menuClosed button {
+    margin: 0 0.5vw 1vw 0;
+    border: none;
+    height: 1.75em;
+    width: 1.75em;
+    background-color: #000;
+    cursor: pointer;
+    clip-path: polygon(
+      0% 5%,
+      100% 5%,
+      100% 25%,
+      0% 25%,
+      0% 40%,
+      100% 40%,
+      100% 60%,
+      0% 60%,
+      0% 75%,
+      100% 75%,
+      100% 95%,
+      0% 95%
+    );
+    transition: 0.2s ease-in-out;
+  }
+
+  .menuOpen button {
+    cursor: pointer;
+    margin: 0 0.5vw 1vw 0;
+    height: 1.75em;
+    width: 1.75em;
+    background-color: #000;
+    border: none;
+    clip-path: polygon(
+      20% 0%,
+      0% 20%,
+      30% 50%,
+      0% 80%,
+      20% 100%,
+      50% 70%,
+      80% 100%,
+      100% 80%,
+      70% 50%,
+      100% 20%,
+      80% 0%,
+      50% 30%
+    );
+    transition: 0.2s ease-in-out;
+  }
+
+  .hamburgerUl ul {
+    position: absolute;
+    right: 10vw;
+    background-color: #fff;
+    padding: 3vw;
+    border: 0.5vh black solid;
+    z-index: 1;
+  }
+
+  .hamburgerUl li {
+    list-style: none;
+    padding: 1vw;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  a:hover,
+  .active {
+    font-style: italic;
+    color: #827081;
+  }
 }
 
-a {
-  padding-left: 2vw;
-  text-decoration: none;
-  color:black;
-}
+/* Large devices (laptops/desktops, 700px and up) */
+@media only screen and (min-width: 700px) {
+  .navContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 0.5vw;
+    z-index: 2;
+    background-color: rgba(174, 163, 176, 0.2);
+    width: 101%;
+    font-size: 1.1em;
+  }
 
-nav .active{
-  background: #5855F3;
-  padding: 10px 20px;
-  border-radius: 5px;
-  color: #fff;
+  .navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: 'VictorMonoMedium', monospace;
+    font-weight: 900;
+    font-size: 1.3em;
+    letter-spacing: 0.2rem;
+    padding: 0 1em 1em 0;
+  }
+
+  .navLinks :hover {
+    font-family: 'VictorMonoItalic';
+    color: #827081;
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+  }
+
+  .menuClosed {
+    display: none;
+  }
+
+  .active {
+    display: none;
+  }
+
+  nav a {
+    padding-left: 2vw;
+    text-decoration: none;
+    color: #4b324f;
+    cursor: pointer;
+  }
+
+  nav .active {
+    font-style: italic;
+    color: #827081;
+  }
 }

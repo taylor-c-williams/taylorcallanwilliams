@@ -1,12 +1,24 @@
-import { NavLink } from 'react-router-dom'
-import styles from './Nav.module.css'
+import { useState, useEffect } from 'react';
+import styles from './Nav.module.css';
+import Hamburger from './Hamburger';
+import NavLinks from './NavLinks';
 
 export default function Nav() {
+  const [menuToggle, setMenuToggle] = useState(false);
+
+  const buttonChange = () => {
+    setMenuToggle(!menuToggle);
+  };
+
   return (
-    <div className={styles.nav}>
-  <NavLink to='#'>Portfolio</NavLink>
-  <NavLink to='#'>Resume</NavLink>
-  <NavLink to='#'>Contact</NavLink>
-      </div>
-  )
+    <div className={styles.navContainer}>
+      <label
+        className={menuToggle ? `${styles.menuOpen}` : `${styles.menuClosed}`}
+      >
+        <button onClick={buttonChange} />
+        {menuToggle ? <Hamburger buttonChange="buttonChange" /> : null}
+      </label>
+      <NavLinks />
+    </div>
+  );
 }

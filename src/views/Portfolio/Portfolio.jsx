@@ -9,10 +9,12 @@ import MoreProjects from './MoreProjects';
 export default function Portfolio() {
   return (
     <div>
-      <h1 className={animations.textShadowPopSl}>Portfolio</h1>
-      <span className={styles.portfolioSubHeader}>
-        Selected works from my favorite repositories
-      </span>
+      <Parallax speed={5}>
+        <h1 className={animations.textShadowPopSl}>Portfolio</h1>
+        <span className={styles.portfolioSubHeader}>
+          Selected works from my favorite repositories
+        </span>
+      </Parallax>
       <div className={styles.portfolioMain}>
         <BopSimon />
         <DoggieMatcher />

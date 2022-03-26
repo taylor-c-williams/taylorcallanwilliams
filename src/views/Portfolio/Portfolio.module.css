@@ -147,7 +147,7 @@
   h1 {
     margin: 0;
     font-family: 'CodecColdExtraBold';
-    font-size: 8em;
+    font-size: 7em;
   }
 
   h2 {
@@ -191,7 +191,7 @@
     width: 35vw;
     height: 35vw;
     border-radius: 17.5vw;
-    filter: opacity(0.5);
+    /* filter: opacity(0.5); */
     border: 0.5vw solid black;
   }
 

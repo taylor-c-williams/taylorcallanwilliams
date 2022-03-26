@@ -29,7 +29,7 @@ export default function About() {
         </span>
         Some technologies I am currently working with:
         <br />
-        <h3>React · CSS3 · Node.Js · Express · PostgreSQL · Jest </h3>
+        React · CSS3 · Node.Js · Express · PostgreSQL · Jest
       </header>
     </div>
   );

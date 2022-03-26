@@ -41,11 +41,11 @@ export default function Main() {
           <section id="contact">
             <Contact />
           </section>
-          {scrolled && (
+          {/* {scrolled && (
             <button onClick={scrollToTop} className={styles.backToTop}>
               &#8679;
             </button>
-          )}
+          )} */}
         </main>
         <Footer />
       </div>

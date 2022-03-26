@@ -21,6 +21,11 @@ export default function Portfolio() {
         <FastLancer />
         <h2 className={animations.textShadowPopSl}>More Projects</h2>
         <MoreProjects />
+        <div className={styles.portfolioLink}>
+          <a href="http://www.github.com/taylor-c-williams">
+            ...Psst! Check out my Github profile!
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-/* small devices */
+/* small devices 768 max width*/
 @media only screen and (max-width: 768px) {
   .portfolioMain {
     font-family: 'VictorMonoMedium';
@@ -180,28 +180,25 @@
     text-decoration: none;
     font-weight: 400;
     font-size: 1.25em;
-    padding: 1em;
-    margin: 0.75vw;
+    padding: 0.5em;
+    margin: 3em 1em 3em 1em;
     background-color: #c9c9c9;
     filter: drop-shadow(-7px 7px #827081);
   }
 
   .projectLinks a:hover {
     color: #4b324f;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 1.25em;
-    margin: 0.75vw;
     background-color: #fff;
-    filter: drop-shadow(-7px 7px #827081);
   }
 
   .projectLinks a:active {
     color: #e7e6f7;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 1.25em;
     background-color: #827081;
     filter: drop-shadow(-7px 7px #000);
+  }
+
+  .moreMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }

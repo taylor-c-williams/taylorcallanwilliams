@@ -126,6 +126,7 @@
     padding: 4vh;
     border: 0.5vh black solid;
     background-color: #e7e6f7;
+    font-size: 2em;
   }
 
   section {
@@ -133,13 +134,13 @@
   }
 
   section:nth-child(4) {
-    padding: 0;
+    padding-bottom: 5vw;
   }
 
   .header {
     font-family: 'CodecColdExtraBold', sans-serif;
     font-weight: 800;
-    font-size: 8em;
+    font-size: 9em;
     letter-spacing: 0.07em;
   }
 

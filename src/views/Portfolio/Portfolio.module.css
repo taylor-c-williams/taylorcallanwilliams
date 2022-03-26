@@ -63,7 +63,7 @@
 
   .blurb {
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 800;
     background-color: #e3d0d8;
     padding: 5vw;
     margin: 0 2vw 0 2vw;
@@ -73,7 +73,7 @@
 
   .moreBlurb {
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 800;
     background-color: #e3d0d8;
     padding: 5vw;
     margin: 0 2vw 0 2vw;
@@ -142,7 +142,6 @@
     font-family: 'VictorMonoItalic';
     font-weight: 600;
     display: block;
-    padding-bottom: 1vw;
   }
 
   h1 {
@@ -191,7 +190,7 @@
 
   .blurb {
     font-size: 1.25em;
-    font-weight: 500;
+    font-weight: 800;
     background-color: #e3d0d8;
     padding: 2vw;
     margin: 0 2vw 0 2vw;
@@ -235,7 +234,7 @@
 
   .moreBlurb {
     font-size: 1.25em;
-    font-weight: 500;
+    font-weight: 800;
     background-color: #e3d0d8;
     padding: 2vw;
     margin: 0 2vw 0 2vw;

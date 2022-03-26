@@ -15,11 +15,11 @@ export default function BopSimon() {
         <div className={styles.projectDescription}>
           <div className={styles.blurb}>
             <h2 className={animations.textShadowPopSl}>Fast Lancer</h2>
-            <h3>REACT · JSX · CSS3 · MSW </h3>A dynamically rendered single-page
-            app which utilizes a RESTful API and CRUD functionality to build a
-            freelancer's organizational solution, tracking pertinent data
-            relating to open contracts and current clients. Completed with an
-            all-remote team on a 4-day sprint.
+            <h3>REACT · JSX · CSS3 · MSW · SUPABASE </h3>A dynamically rendered
+            single-page app which utilizes a RESTful API and CRUD functionality
+            to build a freelancer's organizational solution, tracking pertinent
+            data relating to open contracts and current clients. Completed with
+            an all-remote team on a 4-day sprint.
             <ul>
               <li>
                 Collaborated on functional components, utilities, auth

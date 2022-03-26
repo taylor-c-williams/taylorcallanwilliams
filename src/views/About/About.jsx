@@ -15,13 +15,20 @@ export default function About() {
         <Parallax speed={10}>
           <h1 className={animations.textShadowPopSl}>Hi! I'm Taylor.</h1>
         </Parallax>
-        <span className={styles.subHeader}>I make stuff online.</span>
-        <span className={styles.blurb}>
-          I am a creator, a collaborator and a full-stack Software Engineer. I
-          first got excited about writing code (in Notepad) in 1999 and have
-          been building things online ever since. I love to work with any medium
-          which is both technical and creative.
+        <span className={styles.subHeader}>
+          I am a creator, a collaborator and a full-stack Software Engineer.
         </span>
+        <span className={styles.blurb}>
+          I first got excited about writing code (in Notepad) in 1999 and have
+          been building things online ever since. I love to work with any medium
+          which is both technical and creative- I am also a DJ, a graphic
+          designer and a professional photographer.
+          <p />I work with SQL and JavaScript frameworks & libraries and am
+          especially excited about creating with React!
+          <p />
+          Some technologies I am currently working with: <br />
+        </span>
+        <h3> REACT · CSS3 · NODE.JS · EXPRESS · POSTGRESQL · JEST </h3>
       </header>
     </div>
   );

@@ -11,7 +11,7 @@ export default function Contact() {
     <div className={styles.contactMain}>
       <header>
         <Parallax speed={10}>
-          <h1 className={animations.textShadowPopSl}>Get in Touch</h1>
+          <h1 className={animations.textShadowPopSl}>Get in Touch!</h1>
         </Parallax>
         <span className={styles.contactSubHeader}>
           I am looking for new opportunities!
@@ -23,7 +23,7 @@ export default function Contact() {
       </header>
       <div className={styles.contactInfo}>
         <Parallax speed={-5}>
-          <span className={styles.tooltip}>
+          <div className={styles.tooltip}>
             <a
               href="http://www.linkedin.com/in/taylor-c-williams"
               target="_blank"
@@ -32,8 +32,8 @@ export default function Contact() {
               <img src={linkedinProfile} alt="the LinkedIn logo" />
               <div className={styles.hover}>Find me on LinkedIn!</div>
             </a>
-          </span>
-          <span className={styles.tooltip}>
+          </div>
+          <div className={styles.tooltip}>
             <a
               href="http://www.github.com/taylor-c-williams"
               target="_blank"
@@ -42,8 +42,8 @@ export default function Contact() {
               <img src={gitHub} alt="the github logo" />
               <div className={styles.hover}>Check out my Github!</div>
             </a>
-          </span>
-          <span className={styles.tooltip}>
+          </div>
+          <div className={styles.tooltip}>
             <a
               href="mailto:taylor.callan.williams@gmail.com"
               target="_blank"
@@ -54,8 +54,8 @@ export default function Contact() {
                 taylor.callan.williams@gmail.com
               </div>
             </a>
-          </span>
-          <span className={styles.tooltip}>
+          </div>
+          <div className={styles.tooltip}>
             <a
               href="https://drive.google.com/file/d/1V_Z1qjpsz6MVLN9wLz5fRaNs8WOAi5sF/view?usp=sharing/"
               target="_blank"
@@ -64,7 +64,7 @@ export default function Contact() {
               <img src={cv} alt="Check out my Resume!" />
               <div className={styles.hover}>View my resume</div>
             </a>
-          </span>
+          </div>
         </Parallax>
       </div>
     </div>

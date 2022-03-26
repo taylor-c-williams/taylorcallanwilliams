@@ -97,11 +97,11 @@
   .tooltip .hover {
     min-width: 12.5em;
     top: -1vw;
-    left: 50%;
+    left: -95%;
     padding: 1vw 1vw;
     color: #000;
     font-weight: 800;
-    font-size: 1em;
+    font-size: 0.85em;
     background-color: #fff;
     position: absolute;
     z-index: 1;

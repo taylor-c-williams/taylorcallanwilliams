@@ -33,6 +33,7 @@
 
   .blurb {
     font-size: 1.1em;
+    padding: 0;
   }
 }
 
@@ -77,6 +78,10 @@
     filter: drop-shadow(-7px 7px #c9c9c9);
     height: 35vw;
   }
+
+  .blurb {
+    padding: 0;
+  }
 }
 
 /* Larger devices (monitors 1279px and up) */
@@ -119,5 +124,9 @@
   .portrait img {
     filter: drop-shadow(-7px 7px #c9c9c9);
     height: 35vw;
+  }
+
+  .blurb {
+    padding: 0;
   }
 }

@@ -1,5 +1,4 @@
 import { Link } from 'react-scroll';
-import { useEffect, useState } from 'react';
 import styles from './Nav.module.css';
 
 export default function NavLinks() {

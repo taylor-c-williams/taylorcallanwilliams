@@ -128,5 +128,12 @@
 
   .blurb {
     padding: 0;
+    letter-spacing: 0.07em;
+  }
+
+  .aboutMain h3 {
+    text-transform: uppercase;
+    font-size: 0.95em;
+    font-weight: 900;
   }
 }

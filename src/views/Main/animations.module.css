@@ -5,7 +5,6 @@ Classes
 .textShadowPopSl {
   -webkit-animation: text-shadow-pop-bl 0.6s both;
   animation: text-shadow-pop-bl 0.6s both;
-  /* padding: 7vw 0 20vw 5vw; */
 }
 
 .shadowPopTr {
@@ -16,6 +15,11 @@ Classes
 .shadow-pop-bl {
   -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
   animation: shadow-pop-bl 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+.fadeInFwd {
+  -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 /* 

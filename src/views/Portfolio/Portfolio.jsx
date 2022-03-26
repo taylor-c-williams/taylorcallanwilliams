@@ -11,7 +11,7 @@ export default function Portfolio() {
     <div>
       <h1 className={animations.textShadowPopSl}>Portfolio</h1>
       <span className={styles.portfolioSubHeader}>
-        Selected works from my repositories
+        Selected works from my favorite repositories
       </span>
       <div className={styles.portfolioMain}>
         <BopSimon />

@@ -26,9 +26,10 @@ export default function About() {
           <p />I work with SQL and JavaScript frameworks & libraries and am
           especially excited about creating with React!
           <p />
-          Some technologies I am currently working with: <br />
         </span>
-        <h3> REACT · CSS3 · NODE.JS · EXPRESS · POSTGRESQL · JEST </h3>
+        Some technologies I am currently working with:
+        <br />
+        <h3>React · CSS3 · Node.Js · Express · PostgreSQL · Jest </h3>
       </header>
     </div>
   );

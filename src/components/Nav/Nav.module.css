@@ -113,6 +113,14 @@
     font-size: 1.3em;
     letter-spacing: 0.2rem;
     padding: 0 1em 1em 0;
+    text-shadow: -1px 1px #c9c9c9;
+  }
+
+  .navLinks :hover {
+    font-family: 'VictorMonoItalic';
+    color: #827081;
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
   }
 
   .menuClosed {
@@ -134,15 +142,4 @@
     font-style: italic;
     color: #827081;
   }
-
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  /* .sticky + .navContainer {
-    padding-top: 60px;
-  } */
 }

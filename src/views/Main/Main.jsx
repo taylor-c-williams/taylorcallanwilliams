@@ -9,13 +9,11 @@ import Contact from '../Contact/Contact';
 import Portfolio from '../Portfolio/Portfolio';
 
 export default function Main() {
-  const [showTopButton, setShowTopButton] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      window.pageYOffset > 300
-        ? setShowTopButton(true)
-        : setShowTopButton(false);
+      window.pageYOffset > 300 ? setScrolled(true) : setScrolled(false);
     });
   }, []);
 
@@ -25,10 +23,10 @@ export default function Main() {
       behavior: 'smooth', // for smoothly scrolling
     });
   };
-  console.log(showTopButton);
+
   return (
     <>
-      <Nav />
+      <Nav scrolled={scrolled} setScrolled={setScrolled} />
       <div className={styles.mainContainer}>
         <main className={styles.main}>
           <section id="home" className={animations.textShadowPopSl}>
@@ -43,7 +41,7 @@ export default function Main() {
           <section id="contact">
             <Contact />
           </section>
-          {showTopButton && (
+          {scrolled && (
             <button onClick={scrollToTop} className={styles.backToTop}>
               &#8679;
             </button>

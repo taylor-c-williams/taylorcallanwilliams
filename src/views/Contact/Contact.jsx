@@ -16,13 +16,55 @@ export default function Contact() {
         <span className={styles.contactSubHeader}>
           I am looking for new opportunities!
         </span>
+        {/* <span className={styles.contactBlurb}>
+          Check out my social media or feel free to reach out via email at
+          taylor.callan.williams@gmail.com
+        </span> */}
       </header>
       <div className={styles.contactInfo}>
         <Parallax speed={-5}>
-          <img src={linkedinProfile} alt="the LinkedIn logo" />
-          <img src={gitHub} alt="the github logo" />
-          <img src={email} alt="An Email icon" />
-          <img src={cv} alt="Check out my Resume!" />
+          <span className={styles.tooltip}>
+            <a
+              href="http://www.linkedin.com/in/taylor-c-williams"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={linkedinProfile} alt="the LinkedIn logo" />
+              <div className={styles.hover}>Find me on LinkedIn!</div>
+            </a>
+          </span>
+          <span className={styles.tooltip}>
+            <a
+              href="http://www.github.com/taylor-c-williams"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={gitHub} alt="the github logo" />
+              <div className={styles.hover}>Check out my Github!</div>
+            </a>
+          </span>
+          <span className={styles.tooltip}>
+            <a
+              href="mailto:taylor.callan.williams@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={email} alt="An Email icon" />
+              <div className={styles.hover}>
+                taylor.callan.williams@gmail.com
+              </div>
+            </a>
+          </span>
+          <span className={styles.tooltip}>
+            <a
+              href="https://drive.google.com/file/d/1V_Z1qjpsz6MVLN9wLz5fRaNs8WOAi5sF/view?usp=sharing/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={cv} alt="Check out my Resume!" />
+              <div className={styles.hover}>View my resume</div>
+            </a>
+          </span>
         </Parallax>
       </div>
     </div>

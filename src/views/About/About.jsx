@@ -17,9 +17,10 @@ export default function About() {
         </Parallax>
         <span className={styles.subHeader}>I make stuff online.</span>
         <span className={styles.blurb}>
-          Cat ipsum dolor sit amet, human is in bath tub, emergency! drowning!
-          meooowww!. Swat at dog poop on floor and watch human clean up lick the
-          other cats nap all day warm up laptop with butt lick butt fart
+          I am a creator, a collaborator and a full-stack Software Engineer. I
+          first got excited about writing code (in Notepad) in 1999 and have
+          been building things online ever since. I love to work with any medium
+          which is both technical and creative.
         </span>
       </header>
     </div>

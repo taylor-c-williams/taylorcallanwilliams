@@ -87,4 +87,31 @@
     height: 6.5em;
     margin: 2.5vw;
   }
+
+  .tooltip {
+    display: inline-block;
+    position: relative;
+    font-family: 'VictorMonoMedium';
+  }
+
+  .tooltip .hover {
+    min-width: 12.5em;
+    top: -1vw;
+    left: 50%;
+    padding: 1vw 1vw;
+    color: #000;
+    font-weight: 800;
+    font-size: 1em;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    box-sizing: border-box;
+    border: 0.25vw solid #000;
+    filter: drop-shadow(-5px 5px #c9c9c9);
+    display: none;
+  }
+
+  .tooltip:hover .hover {
+    display: block;
+  }
 }

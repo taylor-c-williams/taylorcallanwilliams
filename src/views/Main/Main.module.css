@@ -91,6 +91,10 @@
     padding: 0 0 25vw 0;
   }
 
+  section:nth-child(4) {
+    padding: 0 0 10vw 0;
+  }
+
   .titleContainer {
     display: block;
     padding: 2vw 0 0 2vw;
@@ -126,6 +130,10 @@
 
   section {
     padding: 0 0 20vw 0;
+  }
+
+  section:nth-child(4) {
+    padding: 0;
   }
 
   .header {

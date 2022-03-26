@@ -174,6 +174,10 @@
     filter: drop-shadow(-7px 7px #c9c9c9);
   }
 
+  .projectLinks {
+    margin: 2vw 0 1vw 0;
+  }
+
   .projectLinks a {
     color: #4b324f;
     border: 1px black solid;
@@ -189,6 +193,7 @@
   .projectLinks a:hover {
     color: #4b324f;
     background-color: #fff;
+    font-family: 'VictorMonoItalic';
   }
 
   .projectLinks a:active {
@@ -200,5 +205,21 @@
   .moreMain {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2vw;
+  }
+
+  .moreBlurb {
+    font-size: 1.25em;
+    font-weight: 500;
+    background-color: #e3d0d8;
+    padding: 2vw;
+    margin: 0 2vw 0 2vw;
+    border: 0.25vw solid;
+    filter: drop-shadow(-7px 7px #c9c9c9);
+  }
+
+  .moreMain h2 {
+    font-size: 2em;
+    padding: 1vw;
   }
 }

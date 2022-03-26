@@ -4,6 +4,7 @@ import animations from '../Main/animations.module.css';
 import DoggieMatcher from './DoggieMatcher';
 import BopSimon from './BopSimon';
 import FastLancer from './FastLancer';
+import MoreProjects from './MoreProjects';
 
 export default function Portfolio() {
   return (
@@ -18,6 +19,8 @@ export default function Portfolio() {
         <DoggieMatcher />
         <BopSimon />
         <FastLancer />
+        <h2 className={animations.textShadowPopSl}>More Projects</h2>
+        <MoreProjects />
       </div>
     </div>
   );

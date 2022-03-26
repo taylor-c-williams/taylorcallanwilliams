@@ -16,7 +16,7 @@ export default function BopSimon() {
           <div className={styles.blurb}>
             <h2 className={animations.textShadowPopSl}>Bop Simon!</h2>
             <h3>
-              REACT · TONE. JS · MATERIAL UI · BCRYPT · EXPRESS · POSTGRESQL{' '}
+              REACT · TONE.JS · MATERIAL UI · BCRYPT · EXPRESS · POSTGRESQL
             </h3>
             A full-stack interactive musical memory game built in React,
             Tone.Js, CSS, PostgreSQL and Express. Using custom-built synthesized
@@ -26,8 +26,8 @@ export default function BopSimon() {
             all-remote team during a 10 day sprint.
             <ul>
               <li>
-                Personally led development, testing and implementation of game
-                logic using React Hooks, Context and asynchronous functions
+                Led development, testing and implementation of game logic using
+                React Hooks, Context and asynchronous functions
               </li>
               <li>
                 Implemented third-party libraries Tone.Js and Material UI to
@@ -35,8 +35,20 @@ export default function BopSimon() {
               </li>
             </ul>
             <div className={styles.projectLinks}>
-              <a href="#">LIVE</a>
-              <a href="#">CODE</a>
+              <a
+                href="https://bop-simon-prod.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LIVE
+              </a>
+              <a
+                href="https://github.com/bop-simon"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CODE
+              </a>
             </div>
           </div>
         </div>

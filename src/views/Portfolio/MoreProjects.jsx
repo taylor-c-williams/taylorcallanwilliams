@@ -9,7 +9,11 @@ export default function MoreProjects() {
         mobile-first design philosophy
         <br />
         <div className={styles.projectLinks}>
-          <a href="https://github.com/taylor-c-williams/taylorcallanwilliams">
+          <a
+            href="https://github.com/taylor-c-williams/taylorcallanwilliams"
+            target="_blank"
+            rel="noreferrer"
+          >
             Github Repo
           </a>
         </div>
@@ -19,19 +23,26 @@ export default function MoreProjects() {
         Postgres DB and Heroku to deploy CRUD endpoints on multiple tables.
         Testing in Jest. <br />
         <div className={styles.projectLinks}>
-          <a href="https://github.com/taylor-c-williams/backend-hand-of-resources">
+          <a
+            href="https://github.com/taylor-c-williams/backend-hand-of-resources"
+            target="_blank"
+            rel="noreferrer"
+          >
             Github Repo
           </a>
         </div>
       </div>
       <div className={styles.moreBlurb}>
-        <h2>Haunted Sword Emporium</h2>
-        The Haunted Sword Emporium is a Haunted Sword E-Commerce Platform
-        featuring Javascript, HTML, CSS and local storage to mock an online
+        <h2>Haunted Sword Emporium</h2>An E-Commerce platform written in pure
+        Javascript, HTML, CSS and utilizing local storage to mock an online
         shopping cart. Testing in Q-Unit. (Enter at own risk, developer not
         responsible for any ancient curses that may be bestowed upon the user)
         <div className={styles.projectLinks}>
-          <a href="https://github.com/taylor-c-williams/lab-06-e-commerce-site/">
+          <a
+            href="https://github.com/taylor-c-williams/lab-06-e-commerce-site/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Github Repo
           </a>
         </div>
@@ -42,7 +53,11 @@ export default function MoreProjects() {
         and Postgres utilizing a RESTful API and responsive design to display
         user-customizable data on every Studio Ghibli film. <br />
         <div className={styles.projectLinks}>
-          <a href="https://github.com/taylor-c-williams/ghibli-FE/">
+          <a
+            href="https://github.com/taylor-c-williams/ghibli-FE/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Github Repo
           </a>
         </div>

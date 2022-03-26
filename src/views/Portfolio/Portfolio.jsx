@@ -16,15 +16,21 @@ export default function Portfolio() {
         </span>
       </Parallax>
       <div className={styles.portfolioMain}>
-        <DoggieMatcher />
         <BopSimon />
+        <DoggieMatcher />
         <FastLancer />
         <h2 className={animations.textShadowPopSl}>More Projects</h2>
         <MoreProjects />
-        <div className={styles.portfolioLink}>
-          <a href="http://www.github.com/taylor-c-williams">
-            ...Psst! Check out my Github profile!
-          </a>
+        <div className={styles.rightAligner}>
+          <span className={styles.projectLinks}>
+            <a
+              href="http://www.github.com/taylor-c-williams"
+              target="_blank"
+              rel="noreferrer"
+            >
+              ...Psst! Check out my Github profile!
+            </a>
+          </span>
         </div>
       </div>
     </div>

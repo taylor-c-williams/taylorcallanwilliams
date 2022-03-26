@@ -39,9 +39,9 @@
 /* Medium + larger devices (landscape tablets, laptops 768px and up) */
 @media only screen and (min-width: 768px) {
   .contactMain {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'VictorMonoMedium';
   }
 
   header {
@@ -68,8 +68,23 @@
     padding: 0.5em;
     font-weight: 600;
   }
-  .portrait img {
-    clip-path: circle(50% at 50% 50%);
-    height: 35vw;
+
+  .contactInfo {
+    display: flex;
+    align-items: center;
+  }
+
+  .contactInfo img {
+    height: 7em;
+    margin: 1vw;
+  }
+
+  .contactInfo img:hover {
+    filter: drop-shadow(-7px 7px #c9c9c9);
+  }
+
+  .contactInfo img:nth-child(4) {
+    height: 6.5em;
+    margin: 2.5vw;
   }
 }

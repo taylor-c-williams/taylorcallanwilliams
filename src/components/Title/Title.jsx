@@ -9,9 +9,7 @@ export default function Tile() {
         Callan <br />
         Williams
       </span>
-      <Parallax speed={2}>
-        <span className={styles.subHeader}>Software Developer</span>
-      </Parallax>
+      <div className={styles.subHeader}>Software Developer</div>
     </div>
   );
 }

@@ -22,8 +22,9 @@ export default function BopSimon() {
             all-remote team on a 4-day sprint.
             <ul>
               <li>
-                Collaborated on components, utilities, auth functionality in
-                React and JSX, Supabase back end and testing in Jest
+                Collaborated on functional components, utilities, auth
+                functionality in React and JSX, Supabase back end and testing in
+                Jest
               </li>
               <li>
                 Designed detailed wireframes for desktop and mobile views which
@@ -32,8 +33,20 @@ export default function BopSimon() {
               </li>
             </ul>
             <div className={styles.projectLinks}>
-              <a href="#">LIVE</a>
-              <a href="#">CODE</a>
+              <a
+                href="https://fast-lancer.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LIVE
+              </a>
+              <a
+                href="https://github.com/Fast-Lancer/Fast-Lancer"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CODE
+              </a>
             </div>
           </div>
         </div>

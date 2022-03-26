@@ -31,8 +31,14 @@ export default function DoggieMatcher() {
               </li>
             </ul>
             <div className={styles.projectLinks}>
-              <a href="#">LIVE</a>
-              <a href="#">CODE</a>
+              <a href="https://dog-match-app.netlify.app/" target="_blank" rel="noreferrer">LIVE</a>
+              <a
+                href="https://github.com/Dog-Match"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CODE
+              </a>
             </div>
           </div>
         </div>

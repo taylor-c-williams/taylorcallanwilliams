@@ -20,7 +20,7 @@ export default function Hamburger(buttonChange) {
         <li>
           <Link
             onClick={buttonChange}
-            to="/about"
+            to="about"
             spy={true}
             smooth={true}
             offset={50}

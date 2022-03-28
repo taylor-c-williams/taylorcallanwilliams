@@ -8,7 +8,10 @@
     background-color: #fff;
     border-bottom: #fff 1px solid;
     top: 0;
-    z-index: 1;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(2px);
+    border-bottom: #fff 0.1vw solid;
     font-family: 'Victor Mono';
     font-size: 2em;
     font-weight: 800;

@@ -1,60 +1,55 @@
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import styles from './Nav.module.css';
 
-export default function Hamburger(buttonChange) {
-  const scrollWithOffset = (el, offset) => {
-    const elementPosition = el.offsetTop - offset;
-    window.scroll({
-      top: elementPosition,
-      left: 0,
-      behavior: 'smooth',
-    });
+export default function Hamburger({ buttonChange }) {
+  const scrollWithOffset = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -80;
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
   };
 
   return (
     <div className={styles.hamburgerUl}>
       <ul>
         <li>
-          <Link
+          <HashLink
             onClick={buttonChange}
+            smooth
             to="#home"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
+            scroll={(el) => scrollWithOffset(el)}
           >
             Home
-          </Link>
+          </HashLink>
         </li>
         <li>
-          <Link
+          <HashLink
             onClick={buttonChange}
+            smooth
             to="#about"
-            scroll={(el) => scrollWithOffset(el, 150)}
+            scroll={(el) => scrollWithOffset(el)}
           >
             About
-          </Link>
+          </HashLink>
         </li>
         <li>
-          <Link
+          <HashLink
             onClick={buttonChange}
+            smooth
             to="#portfolio"
-            scroll={(el) => scrollWithOffset(el, 550)}
+            scroll={(el) => scrollWithOffset(el)}
           >
             Portfolio
-          </Link>
+          </HashLink>
         </li>
         <li>
-          <Link
+          <HashLink
             onClick={buttonChange}
+            smooth
             to="#contact"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
+            scroll={(el) => scrollWithOffset(el)}
           >
             Contact
-          </Link>
+          </HashLink>
         </li>
       </ul>
     </div>

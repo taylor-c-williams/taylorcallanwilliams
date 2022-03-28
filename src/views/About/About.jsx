@@ -6,7 +6,7 @@ import portrait from '../../assets/images/linkd.png';
 export default function About() {
   return (
     <div className={styles.aboutMain}>
-      <Parallax speed={-10}>
+      <Parallax speed={-5}>
         <span className={styles.portrait}>
           <img src={portrait} alt="A portrait of Taylor" />
         </span>

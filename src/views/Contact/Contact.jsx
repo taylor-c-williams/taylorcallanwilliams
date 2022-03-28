@@ -16,10 +16,6 @@ export default function Contact() {
         <span className={styles.contactSubHeader}>
           I am looking for new opportunities!
         </span>
-        {/* <span className={styles.contactBlurb}>
-          Check out my social media or feel free to reach out via email at
-          taylor.callan.williams@gmail.com
-        </span> */}
       </header>
       <div className={styles.contactInfo}>
         <Parallax speed={-5}>
@@ -45,14 +41,12 @@ export default function Contact() {
           </div>
           <div className={styles.tooltip}>
             <a
-              href="mailto:taylor.callan.williams@gmail.com"
+              href="hello@taylorcallanwilliams.io"
               target="_blank"
               rel="noreferrer"
             >
               <img src={email} alt="An Email icon" />
-              <div className={styles.hover}>
-                taylor.callan.williams@gmail.com
-              </div>
+              <div className={styles.hover}>hello@taylorcallanwilliams.io</div>
             </a>
           </div>
           <div className={styles.tooltip}>

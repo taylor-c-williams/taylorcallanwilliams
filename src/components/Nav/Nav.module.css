@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
+    position: sticky;
+    z-index: 1;
     font-family: 'Victor Mono';
     font-size: 2em;
     font-weight: 800;
@@ -66,7 +68,7 @@
     padding: 3vw;
     border: 0.5vh black solid;
     font-family: 'VictorMonoMedium';
-    z-index: 1;
+    z-index: 2;
   }
 
   .hamburgerUl li {

@@ -1,38 +1,16 @@
 /* small devices 768 max width*/
 @media only screen and (max-width: 768px) {
-  .projectContainer {
-    padding: 1vw;
-    margin: 15vw 0 15vw 0;
-    display: grid;
-    grid-template-columns: 0.75fr 1fr;
-    justify-content: space-between;
-  }
-
-  .projectIcon {
-    width: 60vw;
-    height: 60vw;
-    border-radius: 30vw;
-    background-color: #fff;
-    filter: drop-shadow(-7px 7px #c9c9c9);
-    position: absolute;
-    z-index: 0;
-  }
-
-  .projectIcon img {
-    width: 60vw;
-    height: 60vw;
-    border-radius: 30vw;
-    filter: opacity(0.5);
-    border: 0.5vw solid black;
-  }
-
   .portfolioMain {
     font-size: 1em;
+    flex-direction: column;
     font-family: 'VictorMonoMedium';
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .portfolioSubHeader {
-    font-size: 1.1em;
+    font-size: 1.5em;
     font-family: 'VictorMonoItalic';
     font-weight: 600;
     display: block;
@@ -40,14 +18,40 @@
 
   h1 {
     margin: 0;
+    padding: 0;
     font-family: 'CodecColdExtraBold';
     font-size: 5.45em;
+  }
+
+  .projectContainer {
+    margin: 15vw 0 15vw 0;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    justify-content: space-between;
+  }
+
+  .projectIcon {
+    width: 70vw;
+    height: 70vw;
+    border-radius: 35vw;
+    background-color: #fff;
+    filter: drop-shadow(-7px 7px #c9c9c9);
+    position: absolute;
+    z-index: 0;
+  }
+
+  .projectIcon img {
+    width: 70vw;
+    height: 70vw;
+    border-radius: 35vw;
+    filter: opacity(0.5);
+    border: 0.5vw solid black;
   }
 
   h2 {
     margin: 0;
     font-family: 'CodecColdExtraBold';
-    font-size: 4.5em;
+    font-size: 4em;
   }
 
   h3 {
@@ -75,6 +79,7 @@
   .moreMain {
     width: 100%;
     margin: 8vw 0 8vw 0;
+    padding: 2vw;
   }
 
   .moreBlurb {
@@ -104,29 +109,41 @@
     text-decoration: none;
     font-weight: 400;
     font-size: 1.25em;
-    padding: 0.25em;
+    padding: 0.5em;
     margin: 1vw;
     background-color: #c9c9c9;
     filter: drop-shadow(-7px 7px #827081);
   }
 
   .projectLinks a:hover {
-    color: #4b324f;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 1.25em;
-    padding: 0.25em;
-    margin: 0.75vw;
     background-color: #fff;
-    filter: drop-shadow(-7px 7px #827081);
   }
 
   .projectLinks a:active {
     color: #e7e6f7;
+    background-color: #827081;
+    filter: drop-shadow(-7px 7px #000);
+  }
+
+  .githubPlug a {
+    color: #4b324f;
+    border: 1px black solid;
     text-decoration: none;
     font-weight: 400;
-    font-size: 1.25em;
-    padding: 0.25em;
+    font-size: 1.1em;
+    padding: 0.5em;
+    margin: 1vw;
+    background-color: #c9c9c9;
+    filter: drop-shadow(-7px 7px #827081);
+  }
+
+  .githubPlug:hover {
+    color: #4b324f;
+    background-color: #fff;
+  }
+
+  .githubPlug a:active {
+    color: #e7e6f7;
     background-color: #827081;
     filter: drop-shadow(-7px 7px #000);
   }

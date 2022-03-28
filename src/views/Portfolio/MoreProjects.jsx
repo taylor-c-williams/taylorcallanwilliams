@@ -5,8 +5,8 @@ export default function MoreProjects() {
     <div className={styles.moreMain}>
       <div className={styles.moreBlurb}>
         <h2>Portfolio Site</h2>
-        My Portfolio site is built with React and React Router 6, utilizing a
-        mobile-first design philosophy.
+        This Portfolio site is built with React and React Router 6, utilizing a
+        mobile-first design philosophy. Check out the code!
         <br />
         <div className={styles.projectLinks}>
           <a

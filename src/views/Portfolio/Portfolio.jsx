@@ -21,7 +21,7 @@ export default function Portfolio() {
       <h2 className={animations.textShadowPopSl}>More Projects</h2>
       <MoreProjects />
       <div className={styles.rightAligner}>
-        <span className={styles.projectLinks}>
+        <span className={styles.githubPlug}>
           <a
             href="http://www.github.com/taylor-c-williams"
             target="_blank"

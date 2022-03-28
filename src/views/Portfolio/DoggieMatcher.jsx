@@ -1,14 +1,20 @@
 import { Parallax } from 'react-scroll-parallax';
 import styles from './Portfolio.module.css';
 import animations from '../Main/animations.module.css';
-import dogMatch from '../../assets/images/doggie.png';
+import dogMatch from '../../assets/images/dogMatcher.png';
 
 export default function DoggieMatcher() {
   return (
     <div className={styles.projectContainer}>
       <Parallax speed={25}>
         <div className={styles.projectIcon}>
-          <img src={dogMatch} alt="Doggie Matcher project" />
+          <a
+            href="https://dog-match-app.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={dogMatch} alt="Doggie Matcher project" />
+          </a>
         </div>
       </Parallax>
       <Parallax speed={1}>

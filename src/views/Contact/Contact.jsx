@@ -19,19 +19,49 @@ export default function Contact() {
         <h3>
           👋{' '}
           <a
-            href="hello@taylorcallanwilliams.io"
+            href="mailto:hello@taylorcallanwilliams.io"
             target="_blank"
             rel="noreferrer"
           >
             hello@taylorcallanwilliams.io
           </a>
         </h3>
+        <span className={styles.mobileLinks}>
+          <h3>
+            🚹{' '}
+            <a
+              href="https://www.linkedin.com/in/taylor-c-williams/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              linkedin/in/taylor-c-williams
+            </a>
+            <p />
+            👁‍🗨{' '}
+            <a
+              href="http://www.github.com/taylor-c-williams"
+              target="_blank"
+              rel="noreferrer"
+            >
+              github.com/taylor-c-williams
+            </a>
+            <p />
+            💻{' '}
+            <a
+              href="https://drive.google.com/file/d/1V_Z1qjpsz6MVLN9wLz5fRaNs8WOAi5sF/view?usp=sharing/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              view my resume
+            </a>
+          </h3>
+        </span>
       </header>
       <div className={styles.contactInfo}>
         <Parallax speed={-5}>
           <div className={styles.tooltip}>
             <a
-              href="http://www.linkedin.com/in/taylor-c-williams"
+              href="https://www.linkedin.com/in/taylor-c-williams/"
               target="_blank"
               rel="noreferrer"
             >
@@ -51,7 +81,7 @@ export default function Contact() {
           </div>
           <div className={styles.tooltip}>
             <a
-              href="hello@taylorcallanwilliams.io"
+              href="mailto:hello@taylorcallanwilliams.io"
               target="_blank"
               rel="noreferrer"
             >

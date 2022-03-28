@@ -1,16 +1,17 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   main {
-    padding: 3vh;
+    padding: 4vw;
     border: 0.5vh black solid;
     background-color: #e7e6f7;
-    margin-top: 0;
+    margin: 1.5vw;
+    font-size: 0.85em;
   }
 
   .header {
     font-family: 'CodecColdExtraBold', sans-serif;
     font-weight: 800;
-    font-size: 3.5em;
+    font-size: 6em;
   }
 
   .subContainer {
@@ -20,7 +21,7 @@
 
   .subHeader {
     font-family: 'VictorMonoItalic', monospace;
-    font-size: 1.5em;
+    font-size: 2.5em;
     padding: 3vw 0 3vw 0;
     color: #4b324f;
     padding-bottom: 1vw;
@@ -33,7 +34,7 @@
   }
 
   section {
-    padding: 0 0 25vw 0;
+    padding: 0 0 30vw 0;
   }
 }
 

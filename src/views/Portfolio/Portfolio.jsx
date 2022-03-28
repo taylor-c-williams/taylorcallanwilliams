@@ -8,30 +8,28 @@ import MoreProjects from './MoreProjects';
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className={styles.portfolioMain}>
       <Parallax speed={5}>
         <h1 className={animations.textShadowPopSl}>Portfolio</h1>
         <span className={styles.portfolioSubHeader}>
           Selected works from my favorite repositories
         </span>
       </Parallax>
-      <div className={styles.portfolioMain}>
-        <BopSimon />
-        <DoggieMatcher />
-        <FastLancer />
-        <h2 className={animations.textShadowPopSl}>More Projects</h2>
-        <MoreProjects />
-        <div className={styles.rightAligner}>
-          <span className={styles.projectLinks}>
-            <a
-              href="http://www.github.com/taylor-c-williams"
-              target="_blank"
-              rel="noreferrer"
-            >
-              ...Psst! Check out my Github profile!
-            </a>
-          </span>
-        </div>
+      <BopSimon />
+      <DoggieMatcher />
+      <FastLancer />
+      <h2 className={animations.textShadowPopSl}>More Projects</h2>
+      <MoreProjects />
+      <div className={styles.rightAligner}>
+        <span className={styles.projectLinks}>
+          <a
+            href="http://www.github.com/taylor-c-williams"
+            target="_blank"
+            rel="noreferrer"
+          >
+            ...Psst! Check out my Github profile!
+          </a>
+        </span>
       </div>
     </div>
   );

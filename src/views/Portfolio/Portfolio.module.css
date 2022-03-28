@@ -1,52 +1,17 @@
 /* small devices 768 max width*/
 @media only screen and (max-width: 768px) {
-  .portfolioMain {
-    font-family: 'VictorMonoMedium';
-    font-size: 0.5em;
-  }
-
-  .portfolioSubHeader {
-    font-size: 1.1em;
-    font-family: 'VictorMonoItalic';
-    font-weight: 600;
-    display: block;
-    padding-bottom: 1vw;
-  }
-
-  h1 {
-    margin: 0;
-    font-family: 'CodecColdExtraBold';
-    font-size: 4em;
-  }
-
-  h2 {
-    margin: 0;
-    font-family: 'CodecColdExtraBold';
-    font-size: 5em;
-  }
-
-  h3 {
-    margin: 0.5vw 0 0.75vw 0;
-    font-family: 'VictorMonoMedium';
-    font-size: 1.25em;
-    letter-spacing: 0.2em;
-  }
-
-  ul {
-    padding: 0;
-  }
-
   .projectContainer {
-    padding: 2vw;
+    padding: 1vw;
     margin: 15vw 0 15vw 0;
     display: grid;
-    grid-template-columns: 0.5fr 2fr;
+    grid-template-columns: 0.75fr 1fr;
+    justify-content: space-between;
   }
 
   .projectIcon {
-    width: 35vw;
-    height: 35vw;
-    border-radius: 17.5vw;
+    width: 60vw;
+    height: 60vw;
+    border-radius: 30vw;
     background-color: #fff;
     filter: drop-shadow(-7px 7px #c9c9c9);
     position: absolute;
@@ -54,25 +19,66 @@
   }
 
   .projectIcon img {
-    width: 35vw;
-    height: 35vw;
-    border-radius: 17.5vw;
+    width: 60vw;
+    height: 60vw;
+    border-radius: 30vw;
     filter: opacity(0.5);
     border: 0.5vw solid black;
   }
 
-  .blurb {
+  .portfolioMain {
     font-size: 1em;
-    font-weight: 800;
+    font-family: 'VictorMonoMedium';
+  }
+
+  .portfolioSubHeader {
+    font-size: 1.1em;
+    font-family: 'VictorMonoItalic';
+    font-weight: 600;
+    display: block;
+  }
+
+  h1 {
+    margin: 0;
+    font-family: 'CodecColdExtraBold';
+    font-size: 5.45em;
+  }
+
+  h2 {
+    margin: 0;
+    font-family: 'CodecColdExtraBold';
+    font-size: 4.5em;
+  }
+
+  h3 {
+    margin: 2vw 0 2vw 0;
+    font-family: 'VictorMonoMedium';
+    font-size: 0.85em;
+  }
+
+  ul {
+    padding: 1vw;
+  }
+
+  li {
+    padding: 1vw;
+  }
+
+  .blurb {
     background-color: #e3d0d8;
     padding: 5vw;
     margin: 0 2vw 0 2vw;
-    border: 0.25vw solid;
+    border: 0.5vw solid;
     filter: drop-shadow(-7px 7px #c9c9c9);
   }
 
+  .moreMain {
+    width: 100%;
+    margin: 8vw 0 8vw 0;
+  }
+
   .moreBlurb {
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 800;
     background-color: #e3d0d8;
     padding: 5vw;
@@ -80,12 +86,7 @@
     border: 0.25vw solid;
     filter: drop-shadow(-7px 7px #c9c9c9);
     justify-content: space-between;
-  }
-
-  .moreMain {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 2vw;
+    margin: 5vw;
   }
 
   .moreMain h2 {
@@ -94,7 +95,7 @@
   }
 
   .projectLinks {
-    margin: 2vw 0 1vw 0;
+    margin: 5vw 0 1vw 0;
   }
 
   .projectLinks a {

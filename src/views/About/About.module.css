@@ -9,7 +9,7 @@
   .portrait img {
     clip-path: circle(50% at 50% 50%);
     height: 70vw;
-    margin-bottom: 10vw;
+    margin-bottom: 2vw;
   }
 
   header {

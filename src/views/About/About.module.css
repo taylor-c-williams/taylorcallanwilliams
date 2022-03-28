@@ -1,39 +1,35 @@
 /* Extra small devices (phones, 786px and down) */
 @media only screen and (max-width: 768px) {
   .aboutMain {
-    font-size: 0.75em;
+    font-size: 0.9em;
     font-weight: 600;
+    font-family: 'VictorMonoMedium';
   }
 
   .portrait img {
     clip-path: circle(50% at 50% 50%);
     height: 60vw;
+    margin-bottom: 9vw;
   }
 
-  header {
-    margin: 2vw 0 0 2vw;
-    font-family: 'VictorMonoMedium';
-    font-size: 1em;
-  }
-
-  header h1 {
+  h1 {
     display: block;
-    margin: 0;
     font-family: 'CodecColdExtraBold';
-    font-size: 4.5em;
+    font-size: 3.2em;
   }
 
   .subHeader {
     display: block;
-    font-size: 1.8em;
+    font-size: 1.3em;
     font-family: 'VictorMonoItalic';
-    padding: 0.5em 0 0.5em 0;
+    padding: 5vw 1vw 5vw 1vw;
     letter-spacing: 0.07em;
   }
 
   .blurb {
-    font-size: 1.1em;
     padding: 0;
+    font-size: 1.1em;
+    font-family: 'VictorMonoMedium';
   }
 }
 

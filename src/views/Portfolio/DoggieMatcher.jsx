@@ -14,7 +14,7 @@ export default function DoggieMatcher() {
       <Parallax speed={1}>
         <div className={styles.projectDescription}>
           <div className={styles.blurb}>
-            <h2 className={animations.textShadowPopSl}>Doggie Matcher</h2>
+            <h2 className={animations.textShadowPopSl}>Doggie Match</h2>
             <h3>REACT · NODEJS · EXPRESS · CSS3</h3>A dynamic full-stack CRUD
             app munging multiple RESTful APIs to match users with dog breeds
             based on bespoke personality algorithms. Completed with an
@@ -31,7 +31,13 @@ export default function DoggieMatcher() {
               </li>
             </ul>
             <div className={styles.projectLinks}>
-              <a href="https://dog-match-app.netlify.app/" target="_blank" rel="noreferrer">LIVE</a>
+              <a
+                href="https://dog-match-app.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LIVE
+              </a>
               <a
                 href="https://github.com/Dog-Match"
                 target="_blank"

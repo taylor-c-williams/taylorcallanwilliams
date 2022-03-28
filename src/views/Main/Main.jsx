@@ -17,13 +17,6 @@ export default function Main() {
     });
   }, []);
 
-  // const scrollToTop = () => {
-  //   window.scrollTo({
-  //     top: 0,
-  //     behavior: 'smooth', // for smoothly scrolling
-  //   });
-  // };
-
   return (
     <div>
       <Nav scrolled={scrolled} setScrolled={setScrolled} />
@@ -41,11 +34,6 @@ export default function Main() {
           <section id="contact">
             <Contact />
           </section>
-          {/* {scrolled && (
-            <button onClick={scrollToTop} className={styles.backToTop}>
-              &#8679;
-            </button>
-          )} */}
         </main>
         <Footer />
       </div>

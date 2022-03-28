@@ -94,29 +94,28 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    justify-items: center;
     position: sticky;
     top: 0;
     left: 0;
-    padding-top: 0.5vw;
+    padding: 0.5vw;
+    width: 100%;
     z-index: 2;
-    background-color: rgba(255, 255, 255, 0.2);
-    width: 101%;
-    font-size: 1.1em;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(2px);
+    border-bottom: #fff 0.1vw solid;
+    font-size: 1em;
   }
 
   .navLinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    font-family: 'VictorMonoMedium', monospace;
+    font-family: 'CodecColdExtraBold', monospace;
     font-weight: 900;
     font-size: 1.3em;
     letter-spacing: 0.2rem;
-    padding: 0 1em 1em 0;
+    padding: 0.5em;
   }
 
   .navLinks :hover {
-    font-family: 'VictorMonoItalic';
     color: #827081;
     text-decoration: underline;
     text-underline-offset: 0.25em;
@@ -131,9 +130,9 @@
   }
 
   nav a {
-    padding-left: 2vw;
+    padding-right: 2vw;
     text-decoration: none;
-    color: #4b324f;
+    color: #000;
     cursor: pointer;
   }
 

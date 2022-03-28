@@ -78,7 +78,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   main {
-    margin-top: 1vw;
+    margin: 2vw;
     padding: 4vh;
     border: 0.5vh black solid;
     background-color: #e7e6f7;
@@ -123,10 +123,14 @@
  */
 @media only screen and (min-width: 1279px) {
   main {
+    margin: 1em;
     padding: 4vh;
     border: 0.5vh black solid;
     background-color: #e7e6f7;
     font-size: 1em;
+    -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.47, 0, 0.745, 0.715)
+      both;
+    animation: shadow-pop-bl 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
   }
 
   section {
@@ -156,24 +160,6 @@
     font-size: 1.5em;
     width: 60vw;
   }
-}
-
-.backToTop {
-  position: sticky;
-  bottom: 2vw;
-  left: 90vw;
-  font-family: 'CodecColdRegular', monospace;
-  font-size: 100px;
-  background-color: rgba(201, 201, 201, 0.5);
-  color: white;
-  cursor: pointer;
-  border-radius: 100px;
-  border: none;
-  box-shadow: -5px 5px 0px rgba(201, 201, 201, 1);
-}
-
-.backToTop:hover {
-  background-color: #4b324f;
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

@@ -25,7 +25,7 @@ export default function Main() {
   // };
 
   return (
-    <>
+    <div>
       <Nav scrolled={scrolled} setScrolled={setScrolled} />
       <div className={styles.mainContainer}>
         <main className={styles.main}>
@@ -49,6 +49,6 @@ export default function Main() {
         </main>
         <Footer />
       </div>
-    </>
+    </div>
   );
 }

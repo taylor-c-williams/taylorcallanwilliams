@@ -31,9 +31,9 @@ export default function Main() {
           <section id="portfolio">
             <Portfolio />
           </section>
-          <section id="contact">
+          <span id="contact">
             <Contact />
-          </section>
+          </span>
         </main>
         <Footer />
       </div>

@@ -100,7 +100,7 @@
   }
 
   .projectLinks {
-    margin: 5vw 0 1vw 0;
+    margin: 8vw 0 8vw 0;
   }
 
   .projectLinks a {
@@ -132,7 +132,7 @@
     font-weight: 400;
     font-size: 1.1em;
     padding: 0.5em;
-    margin: 1vw;
+    margin: 1.5vw;
     background-color: #c9c9c9;
     filter: drop-shadow(-7px 7px #827081);
   }
@@ -272,5 +272,32 @@
   .rightAligner {
     display: flex;
     justify-content: flex-end;
+  }
+
+  .githubPlug {
+    margin: 5vw 0 0 5vw;
+  }
+
+  .githubPlug a {
+    color: #4b324f;
+    border: 1px black solid;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.1em;
+    padding: 0.5em;
+    margin: 1.5vw;
+    background-color: #c9c9c9;
+    filter: drop-shadow(-7px 7px #827081);
+  }
+
+  .githubPlug:hover {
+    color: #4b324f;
+    background-color: #fff;
+  }
+
+  .githubPlug a:active {
+    color: #e7e6f7;
+    background-color: #827081;
+    filter: drop-shadow(-7px 7px #000);
   }
 }

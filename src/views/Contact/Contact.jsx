@@ -16,7 +16,7 @@ export default function Contact() {
         <span className={styles.contactSubHeader}>
           I am looking for new opportunities!
         </span>
-        <h3 className={styles.emailAddress}>
+        <span className={styles.emailAddress}>
           👋{' '}
           <a
             href="mailto:hello@taylorcallanwilliams.io"
@@ -25,7 +25,7 @@ export default function Contact() {
           >
             hello@taylorcallanwilliams.io
           </a>
-        </h3>
+        </span>
         <span className={styles.mobileLinks}>
           <h3>
             🚹{' '}

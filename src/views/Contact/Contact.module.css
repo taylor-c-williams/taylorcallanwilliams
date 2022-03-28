@@ -29,11 +29,11 @@
     display: block;
     font-size: 2.5em;
     font-family: 'VictorMonoItalic';
-    padding: 0 0 0.5em 0;
+    padding: 0 0 2em 0;
     letter-spacing: 0.07em;
   }
 
-  h3 {
+  .emailAddress {
     font-size: 1.75em;
   }
 
@@ -45,6 +45,8 @@
   .contactInfo {
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding-top: 2vw;
   }
 
   .contactInfo img {
@@ -98,6 +100,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-family: 'VictorMonoMedium';
+    margin-bottom: 5vw;
   }
 
   .contactMain a {
@@ -137,15 +140,29 @@
     font-size: 8em;
   }
 
+  header h5 {
+    font-size: 7em;
+    font-family: 'CodecColdExtraBold';
+    padding-top: 3vw;
+    margin: 0;
+  }
   header span {
     font-size: 1.1em;
     padding: 0.5em;
     font-weight: 600;
   }
 
+  .emailAddress a {
+    color: #4b324f;
+    font-size: 1.25em;
+  }
+
   .contactInfo {
     display: flex;
     align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    margin-bottom: 5vw;
   }
 
   .contactInfo img {

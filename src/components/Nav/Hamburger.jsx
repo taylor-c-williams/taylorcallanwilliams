@@ -1,4 +1,4 @@
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import styles from './Nav.module.css';
 
 export default function Hamburger(buttonChange) {
@@ -8,7 +8,7 @@ export default function Hamburger(buttonChange) {
         <li>
           <Link
             onClick={buttonChange}
-            to="home"
+            to="#home"
             spy={true}
             smooth={true}
             offset={50}
@@ -20,7 +20,7 @@ export default function Hamburger(buttonChange) {
         <li>
           <Link
             onClick={buttonChange}
-            to="about"
+            to="#about"
             spy={true}
             smooth={true}
             offset={50}
@@ -32,7 +32,7 @@ export default function Hamburger(buttonChange) {
         <li>
           <Link
             onClick={buttonChange}
-            to="portfolio"
+            to="#portfolio"
             spy={true}
             smooth={true}
             offset={50}
@@ -44,7 +44,7 @@ export default function Hamburger(buttonChange) {
         <li>
           <Link
             onClick={buttonChange}
-            to="contact"
+            to="#contact"
             spy={true}
             smooth={true}
             offset={50}

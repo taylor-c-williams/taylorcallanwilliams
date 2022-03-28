@@ -44,6 +44,16 @@
     font-family: 'VictorMonoMedium';
   }
 
+  h3 a {
+    text-decoration: none;
+    color: #4b324f;
+    font-size: 1.1em;
+  }
+  a:hover {
+    color: #827081;
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+  }
   header {
     margin: 2vw 0 0 2vw;
     font-family: 'VictorMonoMedium';

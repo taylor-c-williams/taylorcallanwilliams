@@ -85,15 +85,11 @@
 @media only screen and (min-width: 1279px) {
   .aboutMain {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-  }
-
-  header {
-    margin: 2vw 0 0 2vw;
     font-family: 'VictorMonoMedium';
     font-size: 1em;
-    width: 50vw;
   }
 
   .subHeader {
@@ -102,13 +98,13 @@
     font-family: 'VictorMonoItalic';
   }
 
-  header h1 {
+  h1 {
     margin: 0;
     font-family: 'CodecColdExtraBold';
     font-size: 4.5em;
   }
 
-  header span {
+  span {
     font-size: 1.1em;
     padding: 0.5em;
     font-weight: 600;

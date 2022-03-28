@@ -5,6 +5,9 @@
     flex-direction: row-reverse;
     justify-content: flex-start;
     position: sticky;
+    background-color: #fff;
+    border-bottom: #fff 1px solid;
+    top: 0;
     z-index: 1;
     font-family: 'Victor Mono';
     font-size: 2em;
@@ -68,6 +71,7 @@
     padding: 3vw;
     border: 0.5vh black solid;
     font-family: 'VictorMonoMedium';
+    font-size: 0.85em;
     z-index: 2;
   }
 

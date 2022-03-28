@@ -2,6 +2,15 @@ import { Link } from 'react-router-dom';
 import styles from './Nav.module.css';
 
 export default function Hamburger(buttonChange) {
+  const scrollWithOffset = (el, offset) => {
+    const elementPosition = el.offsetTop - offset;
+    window.scroll({
+      top: elementPosition,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <div className={styles.hamburgerUl}>
       <ul>
@@ -21,10 +30,7 @@ export default function Hamburger(buttonChange) {
           <Link
             onClick={buttonChange}
             to="#about"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
+            scroll={(el) => scrollWithOffset(el, 150)}
           >
             About
           </Link>
@@ -33,10 +39,7 @@ export default function Hamburger(buttonChange) {
           <Link
             onClick={buttonChange}
             to="#portfolio"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
+            scroll={(el) => scrollWithOffset(el, 550)}
           >
             Portfolio
           </Link>

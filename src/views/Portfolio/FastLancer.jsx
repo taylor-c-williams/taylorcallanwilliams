@@ -8,7 +8,13 @@ export default function BopSimon() {
     <div className={styles.projectContainer}>
       <Parallax speed={25}>
         <div className={styles.projectIcon}>
-          <img src={fast} alt="Bop Simon project details" />
+          <a
+            href="https://fast-lancer.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={fast} alt="Bop Simon project details" />
+          </a>
         </div>
       </Parallax>
       <Parallax speed={1}>

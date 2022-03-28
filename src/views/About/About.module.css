@@ -8,19 +8,24 @@
 
   .portrait img {
     clip-path: circle(50% at 50% 50%);
-    height: 60vw;
-    margin-bottom: 9vw;
+    height: 70vw;
+    margin-bottom: 10vw;
   }
 
-  h1 {
+  header {
+    margin: 2vw 0 0 2vw;
+    font-family: 'VictorMonoMedium';
+  }
+
+  header h1 {
     display: block;
     font-family: 'CodecColdExtraBold';
-    font-size: 3.2em;
+    font-size: 6em;
   }
 
   .subHeader {
     display: block;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-family: 'VictorMonoItalic';
     padding: 5vw 1vw 5vw 1vw;
     letter-spacing: 0.07em;

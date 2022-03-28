@@ -11,12 +11,12 @@ export default function Contact() {
     <div className={styles.contactMain}>
       <header>
         <Parallax speed={10}>
-          <h1 className={animations.textShadowPopSl}>Get in Touch!</h1>
+          <h5 className={animations.textShadowPopSl}>Get in Touch!</h5>
         </Parallax>
         <span className={styles.contactSubHeader}>
           I am looking for new opportunities!
         </span>
-        <h3>
+        <h3 className={styles.emailAddress}>
           👋{' '}
           <a
             href="mailto:hello@taylorcallanwilliams.io"

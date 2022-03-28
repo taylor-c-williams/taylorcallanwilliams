@@ -89,8 +89,8 @@
 /* Larger devices (monitors 1279px and up) */
 @media only screen and (min-width: 1279px) {
   .aboutMain {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: flex-start;
     align-items: flex-start;
     font-family: 'VictorMonoMedium';
@@ -106,7 +106,7 @@
   h1 {
     margin: 0;
     font-family: 'CodecColdExtraBold';
-    font-size: 4.5em;
+    font-size: 5em;
   }
 
   span {

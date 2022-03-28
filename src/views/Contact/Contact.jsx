@@ -16,6 +16,16 @@ export default function Contact() {
         <span className={styles.contactSubHeader}>
           I am looking for new opportunities!
         </span>
+        <h3>
+          👋{' '}
+          <a
+            href="hello@taylorcallanwilliams.io"
+            target="_blank"
+            rel="noreferrer"
+          >
+            hello@taylorcallanwilliams.io
+          </a>
+        </h3>
       </header>
       <div className={styles.contactInfo}>
         <Parallax speed={-5}>

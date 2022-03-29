@@ -9,7 +9,7 @@ import MoreProjects from './MoreProjects';
 export default function Portfolio() {
   return (
     <div className={styles.portfolioMain}>
-      <Parallax speed={5}>
+      <Parallax speed={10}>
         <h1 className={animations.textShadowPopSl}>Portfolio</h1>
         <span className={styles.portfolioSubHeader}>
           Selected works from my favorite repositories

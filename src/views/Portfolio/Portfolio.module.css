@@ -301,3 +301,24 @@
     filter: drop-shadow(-7px 7px #000);
   }
 }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .projectIcon {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 15vw;
+    background-color: #fff;
+    filter: drop-shadow(-7px 7px #c9c9c9);
+    position: absolute;
+    z-index: 0;
+  }
+
+  .projectIcon img {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 15vw;
+    border: 0.5vw solid black;
+  }
+
+}

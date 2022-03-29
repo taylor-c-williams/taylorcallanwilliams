@@ -1,3 +1,26 @@
+.tech h6 {
+  font-size: 1.2em;
+  font-family: 'VictorMonoItalic';
+  font-weight: 800;
+  padding:0;
+  margin:0;
+  line-height: 2em;
+}
+
+.techContainer {
+  display: grid;
+  grid-template-columns: 8vw 8vw 8vw 8vw 8vw;
+  gap: 2.5vw;
+  font-size: .85em;
+}
+
+.tech img{
+  display: block;
+  height: 6vw;
+}
+
+
+
 /* Extra small devices (phones, 786px and down) */
 @media only screen and (max-width: 768px) {
   .aboutMain {
@@ -123,7 +146,7 @@
 
   .portrait img {
     filter: drop-shadow(-7px 7px #c9c9c9);
-    height: 35vw;
+    height: 30vw;
   }
 
   .blurb {

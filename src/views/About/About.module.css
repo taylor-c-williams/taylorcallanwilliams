@@ -8,7 +8,7 @@
 
   .portrait img {
     clip-path: circle(50% at 50% 50%);
-    height: 70vw;
+    height: 80vw;
     margin-bottom: 2vw;
   }
 
@@ -28,7 +28,8 @@
     display: block;
     font-size: 1.5em;
     font-family: 'VictorMonoItalic';
-    padding: 8vw 1vw 5vw 1vw;
+    padding: 8vw 0vw 0vw 0vw;
+    margin: 0;
     letter-spacing: 0.07em;
   }
 

@@ -1,4 +1,5 @@
 import { Parallax } from 'react-scroll-parallax';
+import Tech from './Tech';
 import animations from '../../views/Main/animations.module.css';
 import styles from './About.module.css';
 import portrait from '../../assets/images/linkd.png';
@@ -21,13 +22,12 @@ export default function About() {
           been building things online ever since. I love to work with any medium
           which is both technical and creative- I am also a DJ, a graphic
           designer and a professional photographer.
-          <p />I work with SQL and JavaScript frameworks & libraries and am
-          especially excited about creating with React!
+          <p />I work with SQL and JavaScript frameworks and am
+          especially excited about creating with React.
           <p />
         </span>
-        Some technologies I am currently working with:
         <br />
-        React · CSS3 · Node.Js · Express · PostgreSQL · Jest
+        <Tech/>
       </header>
     </div>
   );

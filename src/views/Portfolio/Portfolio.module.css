@@ -24,7 +24,7 @@
   }
 
   .projectContainer {
-    margin: 5vw 0 20vw 0;
+    margin: 5vw 0 10vw 0;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     justify-content: space-between;

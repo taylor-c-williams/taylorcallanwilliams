@@ -21,13 +21,14 @@
     display: block;
     font-family: 'CodecColdExtraBold';
     font-size: 6em;
+    margin-bottom: 5vw;
   }
 
   .subHeader {
     display: block;
     font-size: 1.5em;
     font-family: 'VictorMonoItalic';
-    padding: 5vw 1vw 5vw 1vw;
+    padding: 8vw 1vw 5vw 1vw;
     letter-spacing: 0.07em;
   }
 

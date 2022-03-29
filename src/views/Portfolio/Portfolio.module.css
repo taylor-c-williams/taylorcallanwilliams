@@ -18,13 +18,13 @@
 
   h1 {
     margin: 0;
-    padding: 0;
+    padding-top: 3vw;
     font-family: 'CodecColdExtraBold';
     font-size: 5.25em;
   }
 
   .projectContainer {
-    margin: 15vw 0 15vw 0;
+    margin: 5vw 0 5vw 0;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     justify-content: space-between;
@@ -132,7 +132,7 @@
     font-weight: 400;
     font-size: 1.1em;
     padding: 0.5em;
-    margin: 1.5vw;
+    margin: 1.5vw 0 1.5vw 0;
     background-color: #c9c9c9;
     filter: drop-shadow(-7px 7px #827081);
   }

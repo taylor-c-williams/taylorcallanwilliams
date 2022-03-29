@@ -22,9 +22,8 @@
   .subHeader {
     font-family: 'VictorMonoItalic', monospace;
     font-size: 2em;
-    padding: 3vw 0 3vw 0;
+    padding: 3vw 0 0 0;
     color: #4b324f;
-    padding-bottom: 1vw;
   }
 
   .blurb {
@@ -34,7 +33,7 @@
   }
 
   section {
-    margin: 0 0 25vw 0;
+    margin: 0 0 12vw 0;
   }
 }
 

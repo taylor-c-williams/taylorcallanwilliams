@@ -23,7 +23,7 @@ export default function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            hello@taylorcallanwilliams.io
+            Hello@taylorcallanwilliams.io
           </a>
         </span>
         <span className={styles.mobileLinks}>
@@ -34,7 +34,7 @@ export default function Contact() {
               target="_blank"
               rel="noreferrer"
             >
-              linkedin/in/taylor-c-williams
+              Linkedin/in/taylor-c-williams
             </a>
             <p />
             👁‍🗨{' '}
@@ -43,7 +43,7 @@ export default function Contact() {
               target="_blank"
               rel="noreferrer"
             >
-              github.com/taylor-c-williams
+              Github.com/taylor-c-williams
             </a>
             <p />
             💻{' '}
@@ -52,7 +52,7 @@ export default function Contact() {
               target="_blank"
               rel="noreferrer"
             >
-              view my resume
+              View my Resume
             </a>
           </h3>
         </span>

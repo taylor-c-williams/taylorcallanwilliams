@@ -137,7 +137,7 @@
     filter: drop-shadow(-7px 7px #827081);
   }
 
-  .githubPlug:hover {
+  .githubPlug a:hover {
     color: #4b324f;
     background-color: #fff;
   }
@@ -290,7 +290,7 @@
     filter: drop-shadow(-7px 7px #827081);
   }
 
-  .githubPlug:hover {
+  .githubPlug a:hover {
     color: #4b324f;
     background-color: #fff;
   }

@@ -125,6 +125,10 @@
     filter: drop-shadow(-7px 7px #000);
   }
 
+.rightAligner{
+  padding-bottom:5vw;
+}
+
   .githubPlug a {
     color: #4b324f;
     border: 1px black solid;
@@ -132,7 +136,6 @@
     font-weight: 400;
     font-size: 1.1em;
     padding: 0.5em;
-    margin: 1.5vw 0 1.5vw 0;
     background-color: #c9c9c9;
     filter: drop-shadow(-7px 7px #827081);
   }

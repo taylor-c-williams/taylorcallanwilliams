@@ -50,7 +50,7 @@
   }
 
   .contactInfo img:hover {
-    filter: drop-shadow(-7px 7px #c9c9c9);
+    filter: drop-shadow(-7px 7px #cdcdcd);
   }
 
   .contactInfo img:nth-child(4) {
@@ -77,7 +77,7 @@
     z-index: 1;
     box-sizing: border-box;
     border: 0.25vw solid #000;
-    filter: drop-shadow(-5px 5px #c9c9c9);
+    filter: drop-shadow(-5px 5px #cdcdcd);
     display: none;
   }
 
@@ -166,7 +166,7 @@
   }
 
   .contactInfo img:hover {
-    filter: drop-shadow(-7px 7px #c9c9c9);
+    filter: drop-shadow(-7px 7px #cdcdcd);
   }
 
   .contactInfo img:nth-child(4) {
@@ -193,7 +193,7 @@
     z-index: 1;
     box-sizing: border-box;
     border: 0.25vw solid #000;
-    filter: drop-shadow(-5px 5px #c9c9c9);
+    filter: drop-shadow(-5px 5px #cdcdcd);
     display: none;
   }
 

@@ -34,7 +34,7 @@
     height: 70vw;
     border-radius: 35vw;
     background-color: #fff;
-    filter: drop-shadow(-7px 7px #c9c9c9);
+    filter: drop-shadow(-7px 7px #cdcdcd);
     position: absolute;
     z-index: 0;
   }
@@ -72,7 +72,7 @@
     padding: 5vw;
     margin: 0 2vw 0 2vw;
     border: 0.5vw solid;
-    filter: drop-shadow(-7px 7px #c9c9c9);
+    filter: drop-shadow(-7px 7px #cdcdcd);
   }
 
   .moreMain {
@@ -88,7 +88,7 @@
     padding: 5.5vw;
     margin: 0 2vw 0 2vw;
     border: 0.5vw solid;
-    filter: drop-shadow(-7px 7px #c9c9c9);
+    filter: drop-shadow(-7px 7px #cdcdcd);
     justify-content: space-between;
     margin: 5vw;
   }
@@ -110,7 +110,7 @@
     font-size: 1.25em;
     padding: 0.5em;
     margin: 1vw;
-    background-color: #c9c9c9;
+    background-color: #cdcdcd;
     filter: drop-shadow(-7px 7px #827081);
   }
 
@@ -135,7 +135,7 @@
     font-weight: 400;
     font-size: 1.1em;
     padding: 0.5em;
-    background-color: #c9c9c9;
+    background-color: #cdcdcd;
     filter: drop-shadow(-7px 7px #827081);
   }
 
@@ -196,7 +196,7 @@
     height: 35vw;
     border-radius: 17.5vw;
     background-color: #fff;
-    filter: drop-shadow(-7px 7px #c9c9c9);
+    filter: drop-shadow(-7px 7px #cdcdcd);
     position: absolute;
     z-index: 0;
   }
@@ -215,7 +215,7 @@
     padding: 2vw;
     margin: 0 2vw 0 2vw;
     border: 0.25vw solid;
-    filter: drop-shadow(-7px 7px #c9c9c9);
+    filter: drop-shadow(-7px 7px #cdcdcd);
   }
 
   .projectLinks {
@@ -230,7 +230,7 @@
     font-size: 1.25em;
     padding: 0.5em;
     margin: 3em 1em 3em 1em;
-    background-color: #c9c9c9;
+    background-color: #cdcdcd;
     filter: drop-shadow(-7px 7px #827081);
   }
 
@@ -262,7 +262,7 @@
     padding: 2vw;
     margin: 0 2vw 0 2vw;
     border: 0.25vw solid;
-    filter: drop-shadow(-7px 7px #c9c9c9);
+    filter: drop-shadow(-7px 7px #cdcdcd);
     justify-content: space-between;
   }
 
@@ -288,7 +288,7 @@
     font-size: 1.1em;
     padding: 0.5em;
     margin: 1.5vw;
-    background-color: #c9c9c9;
+    background-color: #cdcdcd;
     filter: drop-shadow(-7px 7px #827081);
   }
 
@@ -311,7 +311,7 @@
     height: 30vw;
     border-radius: 15vw;
     background-color: #fff;
-    filter: drop-shadow(-7px 7px #c9c9c9);
+    filter: drop-shadow(-7px 7px #cdcdcd);
     position: absolute;
     z-index: 0;
   }

@@ -43,7 +43,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    align-content: center;
   }
 
   .tech h6 {
@@ -67,8 +68,7 @@
   .tech img{
     display: block;
     height: 11vw;
-  }
-  
+  }  
 }
 
 /* Medium + larger devices (landscape tablets, laptops 768px and up) */
@@ -109,7 +109,7 @@
   }
 
   .portrait img {
-    filter: drop-shadow(-7px 7px #c9c9c9);
+    filter: drop-shadow(-7px 7px #cdcdcd);
     height: 35vw;
   }
 
@@ -175,7 +175,7 @@
   }
 
   .portrait img {
-    filter: drop-shadow(-7px 7px #c9c9c9);
+    filter: drop-shadow(-7px 7px #cdcdcd);
     height: 30vw;
   }
 

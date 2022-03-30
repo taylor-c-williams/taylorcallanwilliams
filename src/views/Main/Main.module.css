@@ -1,3 +1,14 @@
+.scrollCarat {
+  position: sticky;
+  bottom: 2vw;
+  left: 98vw;
+}
+
+.scrollCarat img {
+  opacity: 0.4;
+  height: 2vw;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   main {
@@ -121,7 +132,7 @@
 
 /* Large devices (laptops/desktops, 1279px and up) 
  */
-@media only screen and (min-width: 1279px) {
+@media only screen and (min-width: 1300px) {
   main {
     margin: 1em;
     padding: 4vh;

@@ -132,7 +132,7 @@
 
 /* Large devices (laptops/desktops, 1279px and up) 
  */
-@media only screen and (min-width: 1279px) {
+@media only screen and (min-width: 1300px) {
   main {
     margin: 1em;
     padding: 4vh;

@@ -3,6 +3,7 @@ import Footer from '../../components/Footer/Footer';
 import Nav from '../../components/Nav/Nav';
 import animations from './animations.module.css';
 import styles from './Main.module.css';
+import carat from '../../assets/images/down.png';
 import Title from '../../components/Title/Title';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
@@ -13,7 +14,9 @@ export default function Main() {
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      window.pageYOffset > 300 ? setScrolled(true) : setScrolled(false);
+      window.pageYOffset > 300 && window.pageYOffset < 4200
+        ? setScrolled(true)
+        : setScrolled(false);
     });
   }, []);
 
@@ -34,6 +37,11 @@ export default function Main() {
           <span id="contact">
             <Contact />
           </span>
+          {scrolled && (
+            <span className={styles.scrollCarat}>
+              <img src={carat} alt="Scroll down!" />
+            </span>
+          )}
         </main>
         <Footer />
       </div>

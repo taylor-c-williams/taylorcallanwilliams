@@ -1,10 +1,14 @@
-Create react app
+# Taylor's Portfolio!
 
-linkedin & github & email icons from <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>
+## Some resources and libraries I used in this project:
 
-react-scroll
+- linkedin & github & email icons from <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>
 
-react-scroll-parallax
-https://react-scroll-parallax.damnthat.tv/docs/intro
+- react-scroll-parallax
+  https://react-scroll-parallax.damnthat.tv/docs/intro
 
-animista
+- react-router-hash-link
+  https://www.npmjs.com/package/react-router-hash-link
+
+- animista.net
+  https://animista.net/

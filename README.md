@@ -1,5 +1,7 @@
 # Taylor's Portfolio!
 
+My Software Engineering Portfolio is built with a mobile-first design philosophy in React and React Router v6.
+
 ## Some resources and libraries I used in this project:
 
 - linkedin & github & email icons from <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>

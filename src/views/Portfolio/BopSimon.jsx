@@ -20,8 +20,8 @@ export default function BopSimon() {
       <Parallax speed={1}>
         <div className={styles.blurb}>
           <h2 className={animations.textShadowPopSl}>Bop Simon!</h2>
-          <h3>REACT · TONE.JS · MATERIAL UI · BCRYPT · EXPRESS · POSTGRESQL</h3>
-          A full-stack interactive musical memory game built for the desktop in
+          <h3>REACT · TONE.JS · MATERIAL UI · EXPRESS · POSTGRESQL</h3>A
+          full-stack interactive musical memory game built for the desktop in
           React, Tone.Js, CSS, PostgreSQL and Express. Using custom-built
           synthesized audio and game logic, Bop Simon guides the player through
           randomly generated melodies of increasing difficulty. User auth data
